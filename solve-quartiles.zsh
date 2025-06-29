@@ -1,6 +1,6 @@
 #! /bin/zsh
 # USAGE   : zsh ./solve-quartiles.zsh
-# AUTHOR  : Michael Carney, Ver. 2.6.12, June 18, 2025
+# AUTHOR  : Michael Carney, Ver. 2.6.12, June 28, 2025
 # WHAT    : Solves Apple News+ Quartiles puzzles after character input from 20 tiles
 # WHY     : There are 123,520 non redundant combinations of 4 sets among 20 elements 
 #         : (zsh) proves the usefulness of traditional command-line scripting, no frills
@@ -19,6 +19,7 @@
 #         : If using an OCR app to copy/paste tiles text, scans can be imperfect, check
 #         : Knowing how to edit a file is useful to fix tiles.txt or modify wordlist.txt
 # UPDATED : Rewritten as functions for clarity and ease of testing 
+#         : Exits if pasted or typed charaters are detected as malformed, multi-char
 #         : (min-max) maximum word size is now 14 chars, due to 'prognosticated' found
 #         : Increased exclusions list in loop4, reduced total searches, reduced runtime
 #         : Fixed input_tiles() bug, punctuation not allowed; therefore eliminated 
@@ -82,9 +83,10 @@ check_tiles() {  # checking because OCR scans may introduce hidden ctrl chars or
               sed 's/0/o/g;s/9/g/g;s/1/l/g;s/I/l/g' | \
               tr '[:upper:]' '[:lower:]' > /tmp/tiles.cleaned
               sed 's/ /\n/g' /tmp/tiles.cleaned | grep . > $tiles
-              file $tiles | egrep -q 'U' && echo "\nBad OCR scan or bad typing in: $tiles\n"    &&
-              echo "SHOULD BE\t     BAD\n============\t     ============="                      &&
-              (cat $tiles ; cat -v $tiles ) | pr -t -2 -o8 -w25                         && echo && exit
+              file $tiles | egrep -q 'U' && echo "\nBad OCR copy/paste or typing in: ($tiles)\n"    &&
+              echo "SHOULD BE\t     FOUND\n============\t     ============="                      &&
+              (cat $tiles ; cat -v $tiles ) | pr -t -2 -o8 -w25                         && echo && 
+              kill -s SIGINT $$
               }
 sort_tiles()  { # sort tiles low-to-high by presence anywhere, among all words
               for ea_ in $(cat $tiles)

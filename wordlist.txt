@@ -7646,6 +7646,7 @@ bouillabaisse
 bouillon
 bouillons
 boulder
+bouldering
 boulders
 boulevard
 boulevards
@@ -49078,6 +49079,9 @@ pastoral
 pastorals
 pastorate
 pastorates
+pastored
+pastoring
+pastorly
 pastors
 pastrami
 pastramis
@@ -71075,6 +71079,8 @@ tosses
 tossing
 tossup
 tossups
+tostada
+tostadas
 tot
 total
 totaled
