@@ -39488,6 +39488,8 @@ lingeringly
 lingers
 lingo
 lingoes
+lingonberries
+lingonberry
 lingos
 lings
 lingual
@@ -60518,6 +60520,10 @@ schmaltziest
 schmaltzy
 schmalz
 schmalzes
+schmear
+schmeared
+schmearing
+schmears
 schmo
 schmoe
 schmoes
