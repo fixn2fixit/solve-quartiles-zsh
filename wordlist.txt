@@ -16235,7 +16235,6 @@ cultures
 culturing
 culvert
 culverts
-cum
 cumber
 cumbered
 cumbering
@@ -48272,6 +48271,10 @@ paddies
 padding
 paddings
 paddle
+paddleboard
+paddleboarded
+paddleboarding
+paddleboards
 paddled
 paddler
 paddlers
@@ -67845,6 +67848,8 @@ sundial
 sundials
 sundown
 sundowns
+sundress
+sundresses
 sundries
 sundry
 sunfish
@@ -76324,7 +76329,6 @@ wassail
 wassailed
 wassailing
 wassails
-wast
 wastage
 wastages
 waste
