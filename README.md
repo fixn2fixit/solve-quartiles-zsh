@@ -13,7 +13,17 @@
 # Or, type 20 tiles when the program asks for input 
 # Use basic command-line tools (only), shell and regex
 # Required: a wordplay wordlist from GitHub, etc.
-# Expected install PATH is a new directory in user's $HOME 
+#
+# INSTALL
+# --------
+# Expected install PATH is user's $HOME
+# Download qt_distro_12.tar.gz
+# Unzip and untar
+# A QT_DISTRO_12 directory will be created with all you need
+# cd QT_DISTRO_12
+# Zsh must be installed, or first add that package, 
+# On Apple News + Puzzles, find a Quartiles puzzle to solve
+# then: zsh solve-quartiles.zsh
 # Bundled: the zsh script, wordlist.txt, tiles.txt, tiles.test
 # No additional libraries, no database, nothing exotic
 # Avoid OS flavored utilities
