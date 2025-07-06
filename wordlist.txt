@@ -26753,6 +26753,8 @@ foisted
 foisting
 foists
 fold
+foldable
+foldables
 foldaway
 folded
 folder
@@ -28885,6 +28887,9 @@ gerbils
 geriatric
 geriatrics
 germ
+germaphobe
+germaphobes
+germaphobic
 germane
 germanium
 germaniums
@@ -47075,6 +47080,8 @@ orbiting
 orbits
 orbs
 orc
+orca
+orcas
 orchard
 orchards
 orchestra
@@ -57481,6 +57488,7 @@ replied
 replies
 reply
 replying
+repo
 repopulate
 repopulated
 repopulates
@@ -57495,6 +57503,7 @@ reporters
 reporting
 reportorial
 reports
+repos
 repose
 reposed
 reposeful
@@ -67350,6 +67359,7 @@ sublimer
 sublimes
 sublimest
 subliminal
+subliminally
 subliming
 sublimities
 sublimity
