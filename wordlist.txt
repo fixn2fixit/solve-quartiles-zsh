@@ -6404,6 +6404,8 @@ biologists
 biology
 biomass
 biomasses
+biome
+biomes
 bionic
 bionically
 bionics
@@ -42398,6 +42400,8 @@ microbe
 microbes
 microbial
 microbiology
+microbiome
+microbiomes
 microbrew
 microbrewed
 microbrewing
