@@ -1,9 +1,10 @@
 #! /bin/zsh
 # USAGE   : zsh ./solve-quartiles.zsh
-# AUTHOR  : Michael Carney, Ver. 2.6.12, June 28, 2025
+# AUTHOR  : Michael Carney, Ver. 2.6.12a, July 09, 2025
 # WHAT    : Solves Apple News+ Quartiles puzzles after character input from 20 tiles
 # WHY     : There are 123,520 non redundant combinations of 4 sets among 20 elements 
 #         : (zsh) proves the usefulness of traditional command-line scripting, no frills
+# VERSION : July 09, 2025 words max character range updated based on historical analysis
 # REQUIRED: Z shell is the MacOS defaut, most Linux distros have it available to install
 #         : Wordplay (wordlist.txt) is intended bundled, can overwite it with your own
 #         : (wordlist.txt) & (tiles.txt) must exist in the $PATH of this script
@@ -19,8 +20,8 @@
 #         : If using an OCR app to copy/paste tiles text, scans can be imperfect, check
 #         : Knowing how to edit a file is useful to fix tiles.txt or modify wordlist.txt
 # UPDATED : Rewritten as functions for clarity and ease of testing 
-#         : Exits if pasted or typed charaters are detected as malformed, multi-char
-#         : (min-max) maximum word size is now 14 chars, due to 'prognosticated' found
+#         : Word length ranges are based on historical analysis of 250 actual puzzles
+#         : Exit if pasted or typed charaters are detected as malformed, multi-char
 #         : Increased exclusions list in loop4, reduced total searches, reduced runtime
 #         : Fixed input_tiles() bug, punctuation not allowed; therefore eliminated 
 #         : Fixed exclude_some() bug, $move_on[@] patterns now match consistently
@@ -31,6 +32,7 @@
 #         : sort_tiles() puts tiles in order of frequency, that match anywhere in wordlist
 #         : Four reduced wordlist files are written to contain wordlist character ranges
 #         : Historical analysis: (min-max) char-range determined by real puzzles solved
+#         : four-tile word size is now 9-14 chars, due to 'prognosticated' found
 #         : At completion the total quantity of words discovered is displayed 
 #         : At completion the total quantity of searches expended is displayed 
 #         : When five quartile words have been found ((quartiles > 4)), searches terminate
@@ -42,6 +44,7 @@
 # FORMAT  : The expected format of any wordlist is one lower-case word per line
 # FIXER   : This script auto-corrects Win/DOS style wordlists for Unix compatible end-of-lines
 # SCRUBBER: This script eliminates wordlist records with capitals, numbers, or punctuation
+# LIMITER : This script limits word size to 14 characters, /tmp/wordlist files are written
 # ONGOING : Edit (add or delete) words in (wordlist.txt) as puzzles determine are valid
 # ================================ BEGIN FUNCTIONS ===========================================
 say_greeting(){ clear
@@ -49,11 +52,11 @@ say_greeting(){ clear
               }
 input_tiles() { theseTiles=( )
               echo "\nInput Tips\n=========="
-              echo "Typed characters populate file tiles.txt."
-              echo "An OCR scan & copy/paste can ease typing."
-              echo "Backspacing fails, use (.) to start over."
-              echo "Typing only (.) reuses tiles.txt content.\n"
-              echo "Enter tiles now, a full tile, a space etc."
+              echo "Typed characters populate file tiles.txt"
+              echo "An OCR scan & copy/paste can ease typing"
+              echo "Backspacing fails, use (.) to start over"
+              echo "Typing only (.) reuses tiles.txt content\n"
+              echo "Enter tiles now, 1 full tile, 1 space etc"
               echo "Multiple lines are okay, finish with (.)\n\n> \c"
               #echo "Finish with (.)\n\c" 
               read -d. theseTiles
@@ -122,8 +125,8 @@ do  [[ $move_on[@] =~ " $tile[$one] " ]] && continue
 done
         }
 loop2() {
-min_max="/tmp/wordlist-03-08-char.txt"
-awk 'length > 2 && length < 9' $smallerList > $min_max
+min_max="/tmp/wordlist-04-07-char.txt"
+awk 'length > 3 && length < 8' $smallerList > $min_max
 echo "\nsearching two-tile hits.. \n"
 for (( one=1; one<=20; one++ ))
 do  [[ $move_on[@] =~ " $tile[$one] " ]] && continue
@@ -138,8 +141,8 @@ do  [[ $move_on[@] =~ " $tile[$one] " ]] && continue
 done
         }
 loop3() {
-min_max="/tmp/wordlist-05-12-char.txt"
-awk 'length > 4 && length < 13' $smallerList > $min_max
+min_max="/tmp/wordlist-06-10-char.txt"
+awk 'length > 5 && length < 11' $smallerList > $min_max
 echo "\nsearching three-tile hits.. \n"
 for (( one=1; one<=20; one++ ))
 do  [[ $move_on[@] =~ " $tile[$one] " ]] && continue
@@ -186,7 +189,7 @@ done
         }
 # ================================ MAIN =====================================
 umask 111               # /tmp/ files are public
-qt_ver="ver. 2.6.12"
+qt_ver="ver. 2.6.12a"
 masterlist="wordlist.txt" ; hits=0 ; quartiles=0 ; lookups=0
 smallerList="/tmp/wordlist.max14.chars.txt"
 tiles="tiles.txt"

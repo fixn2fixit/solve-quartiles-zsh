@@ -54480,6 +54480,7 @@ qualmish
 qualms
 quandaries
 quandary
+quant
 quanta
 quantifiable
 quantified
@@ -54491,6 +54492,7 @@ quantifying
 quantitative
 quantities
 quantity
+quants
 quantum
 quarantine
 quarantined
