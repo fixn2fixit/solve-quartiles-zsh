@@ -3314,12 +3314,6 @@ armories
 armoring
 armors
 armory
-armour
-armoured
-armouries
-armouring
-armours
-armoury
 armpit
 armpits
 armrest
@@ -44335,8 +44329,11 @@ multipurpose
 multiracial
 multistage
 multistory
+multitask
+multitasked
 multitasking
 multitaskings
+multitasks
 multitude
 multitudes
 multitudinous
@@ -44353,6 +44350,7 @@ mumbles
 mumbletypeg
 mumbletypegs
 mumbling
+mumbly
 mummer
 mummeries
 mummers
