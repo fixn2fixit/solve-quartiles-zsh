@@ -64930,6 +64930,8 @@ spading
 spadix
 spadixes
 spaghetti
+spaghettini
+spaghettinis
 spaghettis
 spake
 spam
