@@ -5516,6 +5516,8 @@ bedazzles
 bedazzling
 bedbug
 bedbugs
+bedchamber
+bedchambers
 bedclothes
 bedded
 bedding
@@ -10373,6 +10375,8 @@ catholic
 catholicities
 catholicity
 cation
+cationic
+cationically
 cations
 catkin
 catkins
@@ -17282,6 +17286,10 @@ declines
 declining
 declivities
 declivity
+decoct
+decocted
+decocting
+decocts
 decode
 decoded
 decoder
@@ -17401,6 +17409,10 @@ deepening
 deepens
 deeper
 deepest
+deepfake
+deepfaked
+deepfakes
+deepfaking
 deeply
 deepness
 deepnesses
@@ -24663,7 +24675,6 @@ eying
 eyrie
 eyries
 eyry
-fa
 fable
 fabled
 fables
@@ -32666,7 +32677,6 @@ hominid
 hominids
 hominies
 hominy
-homo
 homogeneities
 homogeneity
 homogeneous
@@ -32685,7 +32695,6 @@ homophobias
 homophobic
 homophone
 homophones
-homos
 homosexual
 homosexuality
 homosexuals
@@ -41704,7 +41713,6 @@ mayors
 mayos
 maypole
 maypoles
-mays
 mayst
 maze
 mazes
@@ -42095,6 +42103,8 @@ mentalists
 mentalities
 mentality
 mentally
+mentation
+mentations
 mentee
 menthol
 mentholated
@@ -45515,8 +45525,6 @@ nod
 nodal
 nodded
 nodding
-noddle
-noddles
 node
 nodes
 nods
@@ -52312,6 +52320,7 @@ prankster
 pranksters
 praseodymium
 praseodymiums
+prat
 prate
 prated
 prater
@@ -52320,6 +52329,8 @@ prates
 pratfall
 pratfalls
 prating
+pratingly
+prats
 prattle
 prattled
 prattler
@@ -53046,10 +53057,6 @@ prioritizing
 priority
 priors
 priory
-prise
-prised
-prises
-prising
 prism
 prismatic
 prisms
@@ -53175,6 +53182,9 @@ procreating
 procreation
 procreations
 procreative
+proctologist
+proctologists
+proctology
 proctor
 proctored
 proctoring
@@ -57651,6 +57661,8 @@ reputability
 reputable
 reputably
 reputation
+reputational
+reputationally
 reputations
 repute
 reputed
@@ -61714,7 +61726,6 @@ sermonizing
 sermons
 serologies
 serology
-serous
 serpent
 serpentine
 serpentines
@@ -65866,6 +65877,7 @@ squirreled
 squirreling
 squirrelled
 squirrelling
+squirrelly
 squirrels
 squirt
 squirted
