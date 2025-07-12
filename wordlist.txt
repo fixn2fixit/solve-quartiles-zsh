@@ -1865,7 +1865,6 @@ alternatives
 alternator
 alternators
 alters
-altho
 although
 altimeter
 altimeters
@@ -10409,6 +10408,8 @@ caucussing
 caudal
 caudally
 caught
+caul
+cauls
 cauldron
 cauldrons
 cauliflower
@@ -10456,6 +10457,8 @@ cautions
 cautious
 cautiously
 cautiousness
+cava
+cavas
 cavalcade
 cavalcades
 cavalier
@@ -18846,6 +18849,7 @@ dibbling
 dibs
 dice
 diced
+dicer
 dices
 dicey
 dichotomies
@@ -21996,6 +22000,8 @@ elderberries
 elderberry
 eldercare
 eldercares
+elderflower
+elderflowers
 elderly
 elders
 eldest
@@ -27921,7 +27927,6 @@ fullest
 fulling
 fullness
 fullnesses
-fulls
 fully
 fulminate
 fulminated
@@ -35254,6 +35259,7 @@ inflow
 inflows
 influence
 influenced
+influencers
 influences
 influencing
 influential
@@ -55215,6 +55221,8 @@ rapt
 raptly
 raptness
 raptnesses
+raptor
+raptors
 rapture
 raptures
 rapturous
@@ -55269,6 +55277,7 @@ ratchets
 rate
 rated
 ratel
+ratels
 rater
 raters
 rates
@@ -75112,6 +75121,8 @@ vellum
 vellums
 velocipede
 velocipedes
+velociraptor
+velociraptors
 velocities
 velocity
 velour
@@ -75301,6 +75312,7 @@ vertebrates
 vertex
 vertexes
 vertical
+verticality
 vertically
 verticals
 vertices
