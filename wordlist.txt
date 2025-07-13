@@ -1944,6 +1944,10 @@ ambidextrous
 ambience
 ambiences
 ambient
+ambiguate
+ambiguated
+ambiguates
+ambiguating
 ambiguities
 ambiguity
 ambiguous
@@ -4964,10 +4968,8 @@ barbecued
 barbecues
 barbecuing
 barbed
-barbel
 barbell
 barbells
-barbels
 barbeque
 barbequed
 barbeques
@@ -6460,6 +6462,8 @@ birdseed
 birdseeds
 birdwatcher
 birdwatchers
+bireme
+biremes
 biretta
 birettas
 birth
@@ -15760,6 +15764,10 @@ crimes
 criminal
 criminalities
 criminality
+criminalize
+criminalized
+criminalizing
+criminalizes
 criminally
 criminals
 criminologies
@@ -19277,6 +19285,10 @@ disallow
 disallowed
 disallowing
 disallows
+disambiguate
+disambiguated
+disambiguates
+disambiguating
 disappear
 disappearance
 disappeared
@@ -22340,7 +22352,7 @@ embroiled
 embroiling
 embroilment
 embroilments
-embroils
+embroils 
 embryo
 embryologies
 embryologist
@@ -30189,7 +30201,6 @@ grimaces
 grimacing
 grime
 grimed
-grimes
 grimier
 grimiest
 griminess
@@ -30360,6 +30371,10 @@ groupies
 grouping
 groupings
 groups
+groupthink
+groupthinked
+groupthinks
+groupthinking
 groupware
 groupwares
 grouse
@@ -45103,6 +45118,9 @@ neologism
 neologisms
 neon
 neonatal
+neonatologist
+neonatologists
+neonatalology
 neonate
 neonates
 neons
@@ -50322,7 +50340,6 @@ phenoms
 pheromone
 pheromones
 phew
-phi
 phial
 phials
 philander
@@ -50437,6 +50454,10 @@ phosphors
 phosphorus
 phosphoruses
 photo
+photobomb
+photobombed
+photobombing
+photobombs
 photocell
 photocells
 photocopied
@@ -55699,6 +55720,8 @@ reawaken
 reawakened
 reawakening
 reawakens
+rebar
+rebars
 rebate
 rebated
 rebates
@@ -58825,7 +58848,6 @@ riper
 ripest
 ripoff
 ripoffs
-ripost
 riposte
 riposted
 ripostes
@@ -70694,7 +70716,6 @@ tiresome
 tiresomely
 tiresomeness
 tiring
-tis
 tissue
 tissues
 tit
@@ -70996,7 +71017,11 @@ topcoat
 topcoats
 topdressing
 topdressings
+tope
+toped
+toping
 toper
+topes
 topflight
 topiaries
 topiary
