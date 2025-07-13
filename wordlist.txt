@@ -8207,6 +8207,8 @@ briquet
 briquets
 briquette
 briquettes
+bris
+brises
 brisk
 brisked
 brisker
@@ -24504,6 +24506,7 @@ extermination
 exterminator
 exterminators
 external
+externality
 externalize
 externalized
 externalizes
@@ -43132,6 +43135,8 @@ misnames
 misnaming
 misnomer
 misnomers
+miso
+misos
 misogamies
 misogamist
 misogamists
@@ -45484,10 +45489,6 @@ nirvanas
 nisei
 niseis
 nit
-nite
-niter
-niters
-nites
 nitpick
 nitpicked
 nitpicker
