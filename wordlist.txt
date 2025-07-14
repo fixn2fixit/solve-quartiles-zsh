@@ -11320,8 +11320,6 @@ chickpeas
 chicks
 chickweed
 chickweeds
-chicle
-chicles
 chicness
 chicnesses
 chicories
@@ -12155,6 +12153,8 @@ clematises
 clemencies
 clemency
 clement
+clementine
+clementines
 clemently
 clench
 clenched
@@ -13235,6 +13235,10 @@ committees
 committing
 commode
 commodes
+commodify
+commodified
+commodifying
+commodifies
 commodious
 commodiously
 commodities
@@ -25297,6 +25301,8 @@ fedoras
 feds
 fee
 feeble
+feebleminded
+feeblemindedly
 feebleness
 feeblenesses
 feebler
@@ -35080,6 +35086,8 @@ ineligibility
 ineligible
 ineligibles
 ineligibly
+ineloquent
+ineloquently
 ineluctable
 ineluctably
 inept
@@ -35157,6 +35165,10 @@ infant
 infanticide
 infanticides
 infantile
+infantilize
+infantilized
+infantilizes
+infantilizing
 infantries
 infantry
 infantryman
@@ -36555,7 +36567,6 @@ ire
 ireful
 irenic
 ires
-irides
 iridescence
 iridescences
 iridescent
@@ -37603,7 +37614,6 @@ kennels
 kenning
 keno
 kenos
-kent
 kepi
 kepis
 kept
@@ -53733,6 +53743,8 @@ protoplasm
 protoplasmic
 protoplasms
 prototype
+prototyped
+prototyping
 prototypes
 prototypical
 protozoa
