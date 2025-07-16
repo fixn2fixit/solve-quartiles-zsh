@@ -15257,6 +15257,7 @@ coursed
 courser
 coursers
 courses
+coursework
 coursing
 court
 courted
@@ -16449,6 +16450,9 @@ curved
 curves
 curvier
 curviest
+curvilinear
+curvilinearity
+curvilinearly
 curving
 curvy
 cushier
@@ -18884,7 +18888,6 @@ dichotomy
 dicier
 diciest
 dicing
-dick
 dicker
 dickered
 dickering
@@ -50168,6 +50171,8 @@ pervert
 perverted
 perverting
 perverts
+pescatarian
+pescatarians
 peseta
 pesetas
 peskier
@@ -66441,6 +66446,8 @@ stepchild
 stepchildren
 stepdaughter
 stepdaughters
+stepfamilies
+stepfamily
 stepfather
 stepfathers
 stepladder
@@ -75483,7 +75490,6 @@ viceroys
 vices
 vichyssoise
 vichyssoises
-vicing
 vicinities
 vicinity
 vicious
