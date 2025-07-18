@@ -1703,6 +1703,11 @@ allegorically
 allegories
 allegorist
 allegorists
+allegorize
+allegorized
+allegorizer
+allegorizes
+allegorizing
 allegory
 allegretto
 allegrettos
@@ -23464,7 +23469,6 @@ errors
 errs
 ersatz
 ersatzes
-erst
 erstwhile
 eruct
 eructation
@@ -28392,6 +28396,11 @@ gametic
 gamey
 gamier
 gamiest
+gamification
+gamified
+gamifies
+gamify
+gamifying
 gamin
 gamine
 gamines
@@ -46831,6 +46840,11 @@ oligopolies
 oligopoly
 olive
 olives
+ollie
+ollied
+ollies
+olieling
+ollies
 om
 ombudsman
 ombudsmen
@@ -62448,7 +62462,6 @@ shoo
 shooed
 shooing
 shook
-shoon
 shoos
 shoot
 shooter
@@ -72101,7 +72114,6 @@ trolleybus
 trolleybuses
 trolleybusses
 trolleys
-trollies
 trolling
 trollop
 trollops
