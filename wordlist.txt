@@ -7715,6 +7715,10 @@ bowel
 bowels
 bower
 bowers
+bowhunter
+bowhunted
+bowhunters
+bowhunting
 bowing
 bowl
 bowlder
