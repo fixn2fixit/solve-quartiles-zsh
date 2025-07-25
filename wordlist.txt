@@ -5225,7 +5225,6 @@ bassoons
 bassos
 basswood
 basswoods
-bast
 bastard
 bastardies
 bastardize
@@ -24521,6 +24520,8 @@ exterminating
 extermination
 exterminator
 exterminators
+extern
+externs
 external
 externality
 externalize
@@ -32162,7 +32163,6 @@ hers
 herself
 hertz
 hertzes
-hes
 hesitance
 hesitances
 hesitancies
@@ -55108,6 +55108,8 @@ raises
 raisin
 raising
 raisins
+raita
+raitas
 raja
 rajah
 rajahs
@@ -55303,7 +55305,6 @@ rapturously
 rare
 rarebit
 rarebits
-rared
 rarefaction
 rarefactions
 rarefied
@@ -62253,7 +62254,6 @@ sheriff
 sheriffs
 sherries
 sherry
-shes
 shew
 shewed
 shewing
@@ -71551,6 +71551,8 @@ transcribing
 transcript
 transcription
 transcripts
+transdermal
+transdermally
 transducer
 transducers
 transect
