@@ -16454,6 +16454,8 @@ curvacious
 curvature
 curvatures
 curve
+curveball
+curveballs
 curved
 curves
 curvier
@@ -43345,6 +43347,9 @@ mixer
 mixers
 mixes
 mixing
+mixologist
+mixologists
+mixology
 mixt
 mixture
 mixtures
