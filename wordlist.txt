@@ -9940,8 +9940,6 @@ caregivers
 careless
 carelessly
 carelessness
-carer
-carers
 cares
 caress
 caressed
@@ -31000,7 +30998,6 @@ halcyon
 hale
 haled
 haler
-hales
 halest
 half
 halfback
@@ -74711,7 +74708,6 @@ uraniums
 urban
 urbane
 urbanely
-urbaner
 urbanest
 urbanities
 urbanity
