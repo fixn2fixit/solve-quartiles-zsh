@@ -600,7 +600,6 @@ acknowledging
 acme
 acmes
 acne
-acnes
 acolyte
 acolytes
 aconite
@@ -29558,6 +29557,7 @@ goblets
 goblin
 goblins
 gobs
+gobsmacked
 god
 godchild
 godchildren
@@ -42449,7 +42449,6 @@ micas
 mice
 mickey
 mickeys
-micra
 micro
 microbe
 microbes
@@ -66864,6 +66863,8 @@ storyboard
 storyboards
 storybook
 storybooks
+storyline
+storylines
 storyteller
 storytellers
 storytelling
