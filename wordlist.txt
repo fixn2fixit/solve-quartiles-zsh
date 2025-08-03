@@ -12684,7 +12684,6 @@ codifying
 coding
 codpiece
 codpieces
-cods
 coed
 coeds
 coeducation
@@ -22029,7 +22028,6 @@ elatedly
 elates
 elating
 elation
-elations
 elbow
 elbowed
 elbowing
@@ -40016,6 +40014,8 @@ loiters
 lolcat
 lolcats
 loll
+lollapalooza
+lollapaloozas
 lolled
 lolling
 lollipop
@@ -42320,6 +42320,8 @@ metacarpus
 metal
 metalanguage
 metalanguages
+metalhead
+metalheads
 metallic
 metallurgic
 metallurgical
@@ -67564,6 +67566,8 @@ subsists
 subsoil
 subsoils
 subsonic
+subspace
+subspaces
 subspecies
 substance
 substances
