@@ -6880,6 +6880,8 @@ blockbuster
 blockbusters
 blockbusting
 blockbustings
+blockchain
+blockchains
 blocked
 blocker
 blockers
@@ -48173,7 +48175,6 @@ overthrown
 overthrows
 overtime
 overtimes
-overtire
 overtired
 overtires
 overtiring
@@ -65430,6 +65431,7 @@ spirochetes
 spiry
 spit
 spitball
+spitballing
 spitballs
 spite
 spited
