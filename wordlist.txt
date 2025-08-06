@@ -12710,6 +12710,7 @@ coercive
 coeval
 coevally
 coevals
+coevolution
 coexist
 coexisted
 coexistence
@@ -40359,6 +40360,8 @@ luffed
 luffing
 luffs
 lug
+luger
+lugers
 luggage
 luggages
 lugged
@@ -61470,6 +61473,7 @@ seizure
 seizures
 seldom
 select
+selectable
 selected
 selecting
 selection
@@ -72435,6 +72439,7 @@ tumultuous
 tumultuously
 tun
 tuna
+tunable
 tunas
 tundra
 tundras
