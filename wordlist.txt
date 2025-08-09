@@ -48909,7 +48909,6 @@ parer
 parers
 pares
 pareses
-paresis
 parfait
 parfaits
 pariah
