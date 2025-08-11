@@ -11218,6 +11218,7 @@ cheesecloths
 cheeseparing
 cheeseparings
 cheeses
+cheesesteak
 cheesier
 cheesiest
 cheesiness
@@ -11562,11 +11563,9 @@ choker
 chokers
 chokes
 choking
-choler
 cholera
 choleras
 choleric
-cholers
 cholesterol
 cholesterols
 chomp
