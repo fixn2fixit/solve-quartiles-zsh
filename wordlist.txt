@@ -60920,6 +60920,8 @@ screenings
 screenplay
 screenplays
 screens
+screenshot
+screenshots
 screenwriter
 screenwriters
 screenwriting
