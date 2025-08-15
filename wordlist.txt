@@ -7496,6 +7496,8 @@ boondoggles
 boondoggling
 boonies
 boons
+boop
+boops
 boor
 boorish
 boorishly
@@ -15723,7 +15725,6 @@ crescendos
 crescent
 crescents
 cress
-cresses
 crest
 crested
 crestfallen
@@ -23562,6 +23563,8 @@ espionage
 espionages
 esplanade
 esplanades
+esport
+esports
 espousal
 espousals
 espouse
@@ -73481,7 +73484,6 @@ undeterred
 undeveloped
 undeviating
 undid
-undies
 undigested
 undignified
 undiluted
