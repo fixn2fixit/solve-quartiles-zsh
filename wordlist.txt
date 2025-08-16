@@ -41507,6 +41507,7 @@ massage
 massaged
 massages
 massaging
+masse
 massed
 masses
 masseur
@@ -57224,6 +57225,9 @@ remarried
 remarries
 remarry
 remarrying
+remaster
+remastered
+remastering
 rematch
 rematches
 remeasure
@@ -57831,6 +57835,9 @@ resemble
 resembled
 resembles
 resembling
+resend
+resending
+resends
 resent
 resented
 resentful
@@ -67000,7 +67007,6 @@ strategists
 strategize
 strategizing
 strategy
-strati
 stratified
 stratifies
 stratify
