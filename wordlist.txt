@@ -33103,6 +33103,7 @@ hound
 hounded
 hounding
 hounds
+houndstooth
 hour
 hourglass
 hourglasses
