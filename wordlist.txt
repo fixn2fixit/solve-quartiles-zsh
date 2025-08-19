@@ -11754,6 +11754,8 @@ churner
 churners
 churning
 churns
+churro
+churros
 chute
 chutes
 chutney
@@ -33694,6 +33696,9 @@ hypoglycemia
 hypoglycemias
 hypoglycemic
 hypoglycemics
+hupomania
+hypomanic
+hypomanics
 hypos
 hypotenuse
 hypotenuses
@@ -77527,6 +77532,8 @@ wingers
 winging
 wingless
 winglike
+wingman
+wingmen
 wingnut
 wingnuts
 wings
