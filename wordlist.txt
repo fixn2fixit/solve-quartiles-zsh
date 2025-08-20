@@ -33596,6 +33596,8 @@ hydroplanes
 hydroplaning
 hydroponic
 hydroponics
+hydropower
+hydropowers
 hydros
 hydrosphere
 hydrospheres
@@ -35585,6 +35587,8 @@ innervates
 innervating
 innervation
 innervations
+innie
+innies
 inning
 innings
 innkeeper
@@ -47541,6 +47545,8 @@ outhits
 outhitting
 outhouse
 outhouses
+outie
+outies
 outing
 outings
 outlaid
