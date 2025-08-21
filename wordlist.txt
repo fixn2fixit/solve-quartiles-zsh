@@ -11246,10 +11246,6 @@ chemurgies
 chemurgy
 chenille
 chenilles
-cheque
-chequer
-chequers
-cheques
 cherish
 cherished
 cherishes
@@ -69368,7 +69364,6 @@ tauntingly
 taunts
 taupe
 taupes
-taus
 taut
 tauten
 tautened
