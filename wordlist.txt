@@ -34955,6 +34955,7 @@ indicting
 indictment
 indictments
 indicts
+indies
 indifference
 indifferences
 indifferent
@@ -35000,10 +35001,6 @@ indissoluble
 indissolubly
 indistinct
 indistinctly
-indite
-indited
-indites
-inditing
 indium
 indiums
 individual
@@ -69521,6 +69518,8 @@ technos
 techs
 tectonic
 tectonics
+teddy
+teddies
 tedious
 tediously
 tediousness
@@ -75871,6 +75870,8 @@ vituperating
 vituperation
 vituperations
 vituperative
+vituperator
+vituperous
 viva
 vivace
 vivacious
