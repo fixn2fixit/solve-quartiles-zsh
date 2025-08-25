@@ -21612,6 +21612,8 @@ earwax
 earwaxes
 earwig
 earwigs
+earworm
+earworms
 ease
 eased
 easel
@@ -70059,7 +70061,6 @@ thefts
 their
 theirs
 theism
-theisms
 theist
 theistic
 theists
