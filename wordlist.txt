@@ -17823,6 +17823,8 @@ delirium
 deliriums
 delis
 deliver
+deliverable
+deliverables
 deliverance
 deliverances
 delivered
