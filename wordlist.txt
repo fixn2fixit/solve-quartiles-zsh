@@ -13495,6 +13495,7 @@ compositions
 compositor
 compositors
 compost
+compostable
 composted
 composting
 composts
@@ -66308,6 +66309,7 @@ statesmanship
 statesmen
 stateswoman
 stateswomen
+statewide
 static
 statically
 statics
@@ -71486,6 +71488,8 @@ trailblazings
 trailed
 trailer
 trailers
+trailhead
+trailheads
 trailing
 trails
 train
