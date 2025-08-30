@@ -32937,6 +32937,10 @@ hornlike
 hornpipe
 hornpipes
 horns
+hornswoggle
+hornswoggled
+hornswoggles
+hornswoggling
 horny
 horologic
 horological
