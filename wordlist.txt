@@ -9514,12 +9514,6 @@ camshaft
 camshafts
 can
 canal
-canalization
-canalizations
-canalize
-canalized
-canalizes
-canalizing
 canals
 canape
 canapes
@@ -62689,8 +62683,6 @@ shrieking
 shrieks
 shrift
 shrifts
-shrike
-shrikes
 shrill
 shrilled
 shriller
@@ -62723,6 +62715,8 @@ shrivels
 shriven
 shrives
 shriving
+shroom
+shrooms
 shroud
 shrouded
 shrouding
