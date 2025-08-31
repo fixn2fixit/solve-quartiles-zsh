@@ -8,9 +8,9 @@
 # 
 # DEVELOPMENT IDEAS IMPLEMENTED 
 # -----------------------------
-# Optional: use an OCR app to scan a Quartiles puzzle
-# Then, Copy/Paste the scanned chars for input
-# Or, type 20 tiles when the program asks for input 
+# Type 20 puzzle tiles (space-separated) for input
+# Optional: try an OCR app to scan a Quartiles puzzle
+#         : copy/paste 20 tiles together for input
 # Uses standard command-line tools only, shell and regex
 # Requires: a wordplay wordlist from GitHub, etc.
 #
