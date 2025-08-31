@@ -12,7 +12,9 @@
 # Optional: try an OCR app to scan a Quartiles puzzle
 #         : copy/paste 20 tiles together for input
 # Uses standard command-line tools only, shell and regex
-# Requires: a wordplay wordlist from GitHub, etc.
+# Requires: a reliable wordplay wordlist from GitHub, etc.
+# Wordlist: wordlists are imperfect, (add/del) words
+#         : as puzzles progress over days/months, etc.
 #
 # INSTALL/USE
 # -----------
