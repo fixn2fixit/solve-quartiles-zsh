@@ -13,8 +13,8 @@
 # and then: copy/paste the entire bunch for input
 # Uses standard command-line tools only, shell and regex
 # Requires: a reliable wordplay wordlist from GitHub, etc.
-# Wordlist: wordlists are imperfect, (add/del) words
-#         : as puzzles progress over days/months, etc.
+# Wordlist: any particular wordlist is likely imperfect,
+# (add/del) words as puzzles reveal over days/months, etc.
 #
 # INSTALL/USE
 # -----------
