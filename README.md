@@ -10,7 +10,7 @@
 # -----------------------------
 # Type 20 puzzle tiles (space-separated) for input
 # Optional: try an OCR app to scan 20 tiles as a bunch
-#         : then copy/paste the entire bunch for input
+# and then: copy/paste the entire bunch for input
 # Uses standard command-line tools only, shell and regex
 # Requires: a reliable wordplay wordlist from GitHub, etc.
 # Wordlist: wordlists are imperfect, (add/del) words
