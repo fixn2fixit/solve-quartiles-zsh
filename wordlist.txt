@@ -14042,8 +14042,6 @@ conk
 conked
 conking
 conks
-conman
-conmen
 connect
 connectable
 connected
@@ -33136,6 +33134,8 @@ houseflies
 housefly
 houseful
 housefuls
+houseguest
+houseguests
 household
 householder
 householders
@@ -42099,10 +42099,8 @@ menaced
 menaces
 menacing
 menacingly
-menage
 menagerie
 menageries
-menages
 mend
 mendacious
 mendaciously
