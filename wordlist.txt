@@ -22967,7 +22967,6 @@ enrolls
 enrolment
 enrolments
 enrols
-ens
 ensconce
 ensconced
 ensconces
@@ -27825,7 +27824,6 @@ frontward
 frontwards
 frosh
 frost
-frostbit
 frostbite
 frostbites
 frostbiting
@@ -62200,6 +62198,8 @@ sheaving
 shebang
 shebangs
 shed
+shedder
+shedders
 shedding
 sheds
 sheen
@@ -70079,7 +70079,6 @@ then
 thence
 thenceforth
 thenceforward
-thens
 theocracies
 theocracy
 theocratic
