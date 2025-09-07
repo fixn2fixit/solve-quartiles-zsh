@@ -4,33 +4,50 @@
 # SCRIPT: solve-quartiles.zsh
 # Author: Mike Carney
 # email : fixn2fixit@gmail.com
-# Date  : August 31, 2025
+# Date  : Septermber 07, 2025
 # 
-# DEVELOPMENT IDEAS IMPLEMENTED 
-# -----------------------------
-# Type 20 puzzle tiles (space-separated) for input
-# Optional: try an OCR app to scan 20 tiles as a bunch
-# and then: copy/paste the entire bunch for input
-# Uses standard command-line tools only, shell and regex
-# Requires: a reliable wordplay wordlist from GitHub, etc.
-# Wordlist: any particular wordlist is likely imperfect,
-# (add/del) words as puzzles reveal over days/months, etc.
+# PURPOSE
+# -------
+# Solve Apple News+ Quartiles puzzles
+# No brain cramps over 123,520 combinations
 #
 # INSTALL/USE
 # -----------
 # Expected install PATH is user's $HOME
+# Zsh must be installed or add that package first
+# Bundled: the zsh script, wordlist.txt, tiles.txt, tiles.test
 # Download qt_distro_12.tar.gz
 # Unzip and untar
-# A QT_DISTRO_12 directory will be created with all you need
+# QT_DISTRO_12 directory will be created with all you need
 # cd QT_DISTRO_12
-# Zsh must be installed, or first add that package, 
+# then type: zsh solve-quartiles.zsh
+
+# TO PLAY 
+# -------
 # On Apple News+ Puzzles, find a Quartiles puzzle to solve
-# then, type: zsh solve-quartiles.zsh
-# Bundled: the zsh script, wordlist.txt, tiles.txt, tiles.test
-# No additional libraries, no database, nothing exotic
-# Avoided OS unique utilities Linux vs. MacOS
-# Optimized small file searches, used memory arrays primarily
-# 
+# Initial run asks for input (goes into tiles.txt), enter all 20 tiles
+# If instead you enter a single period, the current (tiles.txt) file is used
+# (tiles.txt) must have (20) tiles total, space-delimited, one or more lines
+# Intended/bundled (tiles.test) can be used to copy to (tiles.txt) for demo
+
+# OPTIONAL
+# -------- 
+# Try an OCR app to scan the 20 tiles together
+# then copy/paste the entire group for input
+#
+# DEVELOPMENT IDEAS IMPLEMENTED 
+# -----------------------------
+# No special libraries, no database, nothing exotic
+# No OS unique utilities (Linux vs. MacOS)
+# Minimize file searches, use memory arrays primarily
+# Must input 20 tiles (full tiles space-separated)
+# Use standard command-line tools only, shell and regex
+# Locate a reliable wordplay wordlist from GitHub, etc.
+# Include such wordlist in the install disto
+# Since any particular wordlist is likely imperfect,
+# (add/del) words as puzzles reveal over days/months, etc.
+# wordlist.txt will be updated regularly for this project
+
 # LATER IMPLEMENTED
 # -----------------
 # Added checks, wordlist compatibility and tiles content
