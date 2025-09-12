@@ -15288,6 +15288,7 @@ couscous
 couscouses
 cousin
 cousins
+couth
 couture
 coutures
 couturier
@@ -35540,6 +35541,8 @@ ink
 inkblot
 inkblots
 inked
+inker
+inkers
 inkier
 inkiest
 inkiness
@@ -41071,8 +41074,6 @@ maneuverable
 maneuvered
 maneuvering
 maneuvers
-manful
-manfully
 manga
 manganese
 manganeses
@@ -48045,6 +48046,9 @@ overpraised
 overpraises
 overpraising
 overprecise
+overprescribe
+overprescribed
+overprescribes
 overprice
 overpriced
 overprices
@@ -48495,6 +48499,7 @@ palefaces
 palely
 paleness
 palenesses
+paleo
 paleographer
 paleographers
 paleographies
@@ -49748,6 +49753,8 @@ pensivenesses
 pent
 pentacle
 pentacles
+pentad
+pentads
 pentagon
 pentagonal
 pentagons
