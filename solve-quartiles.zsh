@@ -1,43 +1,45 @@
 #! /bin/zsh
-# AUTHOR  : Michael Carney, Ver. 2.6.12b, July 13, 2025
+# AUTHOR  : Michael Carney, Ver. 2.6.12e, Sep. 12, 2025
 # CONTACT : fixn2fixit@gmail.com
 # USAGE   : zsh ./solve-quartiles.zsh
 # WHAT    : Solves Apple News+ Quartiles puzzles after character input from 20 tiles
-# WHY     : There are 123,520 non redundant combinations of 4 sets among 20 elements 
+# WHY     : There are 123,520 non redundant combinations of (4 tiles) among 20 total 
+#         : Tiles contain 2-4 characters each, tiles rearrange, not characters within
 #         : (zsh) proves the usefulness of traditional command-line scripting, no frills
 # REQUIRED: Z shell is the MacOS default, most Linux repos have (zsh) available to add
 #         : Wordplay (wordlist.txt) is intended bundled, can overwite it with your own
 #         : (wordlist.txt) & (tiles.txt) must exist in the $PATH of this script
 #         : (tiles.txt) must must contain all tile characters from (any) single puzzle
-# TO PLAY : Initial run asks for input (goes into tiles.txt), enter 20 tiles characters
+# TO PLAY : Initial run asks for input (goes into tiles.txt), type 20 tiles, all chars 
 #         : If instead you enter a single period, the current (tiles.txt) file is used
 #         : (tiles.txt) must have (20) tiles total, space-delimited, one or more lines
 #         : Intended/bundled (tiles.test) can be used to copy to (tiles.txt) for demo
 # WRITES  : This version writes (7) small files in /tmp/ which improves search time 
-# SPEEDY  : Typical full solution runtime 01-04 sec. on a single thread, I7 processor
+# SPEEDY  : Typical full solution runtime 01-04 sec. using one CPU and a single thread
 # OPTIONAL: Hint, an OCR app can reduce typing effort, can utilize copy/paste for input
 #         : If using an OCR app to copy/paste tiles text, scans can be imperfect, check
-#         : Knowing how to edit a file is useful to fix tiles.txt or modify wordlist.txt
+# YOUR JOB: Knowing how to edit a file is req'd to fix tiles.txt or modify wordlist.txt
 # UPDATED : Rewritten as functions for clarity and ease of testing 
-#         : Word length ranges are based on historical analysis of 250 actual puzzles
+#         : Typed input can be backspaced for corrections, use a period to finish input
+#         : Word length ranges are based on historical analysis of 300+ actual puzzles
 #         : Exit if pasted or typed charaters are detected as malformed, multi-char
 #         : Increased exclusions list in loop4, reduced total searches, reduced runtime
 #         : Fixed input_tiles() bug, punctuation not allowed; therefore eliminated 
 #         : Fixed exclude_some() bug, $move_on[@] patterns now match consistently
 #         : End, kill -s SIGINT $$ avoids closing Terminal when called by double-click
-# VERSION : July 13, 2025 min-max character range updated based on historical analysis
+# MIN-MAX : July 29, 2025 min-max character range updated based on historical analysis
 #         : Slower now by .5 sec due to 'embroils' & 'prognosticated' needing 08-14 char
 # METHODS : /tmp/ is utilized for reduction and cleanup, writes are public & disposable 
 #         : dict[@] is resized per loop(1-4) to the expected character-range (min-max)
 #         : dict[@] is further reduced using only first-tile matches in current wordlist
-#         : sort_tiles() puts tiles in order of frequency, that match anywhere in wordlist
+#         : sort_tiles() puts tiles in order of frequency that match anywhere in wordlist
 #         : Four reduced wordlist files are written to contain wordlist character ranges
 #         : Historical analysis: (min-max) char-range determined by real puzzles solved
-#         : four-tile word size is now 9-14 chars, due to 'prognosticated' found
 #         : At completion the total quantity of words discovered is displayed 
 #         : At completion the total quantity of searches expended is displayed 
 #         : When five quartile words have been found ((quartiles > 4)), searches terminate
-#         : Implemented exclude_some() to exclude some tiles from first-tile searches
+#         : Official Quartiles puzzles do not generate (more than five) (4-tile) words
+#         : Implemented 'exclude_some()' to exclude some tiles from first-tile searches
 #         : Does not display exclusions message if exclusions are empty
 #         : If malformed input (hidden chars) discovered, show good/bad two-column list
 # EZ PEZY : Using the (wordlist.txt) intended with this distro will save you effort
@@ -46,23 +48,25 @@
 # FIXER   : This script auto-corrects Win/DOS style wordlists for Unix compatible end-of-lines
 # SCRUBBER: This script eliminates wordlist records with capitals, numbers, or punctuation
 # LIMITER : This script limits word size to 14 characters, /tmp/min-max files are written
-# ONGOING : Edit (add or delete) words in (wordlist.txt) as puzzles determine are valid
+# ONGOING : You should (add or delete) words in (wordlist.txt) as puzzles determine valid
 # DICT    : If using your own word list, preserve (wordlist.txt), overwrite with yours
 # ================================ BEGIN FUNCTIONS ===========================================
 say_greeting(){ clear
-              echo "\nSolving Quartiles Puzzles, $qt_ver"
+              echo "\nSolving Quartiles Puzzles ($qt_ver)"
+              echo "=========================" 
               }
 input_tiles() { theseTiles=( )
-              echo "\nInput Tips\n=========="
-              echo "Typed characters populate file tiles.txt"
-              echo "An OCR scan & copy/paste can ease typing"
-              echo "Backspacing fails, use (.) to start over"
-              echo "Typing only (.) reuses tiles.txt content\n"
-              echo "Enter tiles now, 1 full tile, 1 space etc"
-              echo "Multiple lines are okay, finish with (.)\n\n> \c"
-              #echo "Finish with (.)\n\c" 
-              read -d. theseTiles
-              [[ ${#theseTiles} > 0 ]] && echo $theseTiles[@] > $tiles
+              echo "Input Tips\n=========="
+              echo "You're editing or reusing: tiles.txt"
+              echo "Type one tile per line, many, or all"
+              echo "Put comma or space between multiples"
+              echo "(. return) at start, reuses tiles.txt"
+              echo "\nEnter 20 tiles, end with (. return)\n> \c"
+              while read z
+              do theTiles+=( $z)
+              [[ $theTiles[@] =~ "\." ]] && break
+              done
+              [[ $theTiles[@] =~ [a-z]+ ]] && (echo $theTiles[@] | tr -d \. | sed 's/,/ /g') > $tiles
               clear
               }
 check_wordlist() {
@@ -83,7 +87,7 @@ check_tiles() {  # checking because OCR scans may introduce hidden ctrl chars or
               [ ! -s $tiles ] && echo "Missing content! Put all tile chars into: $tiles\n"      && exit
               [ -s $tiles ] && qty=$(awk 'BEGIN{n=0} /./ {n+=NF} END{print n}' $tiles)
               echo "$qty tiles"
-              (($qty != 20 )) && echo "\n$tiles has $qty tiles, try again..\n"             && exit
+              (($qty != 20 )) && echo && cat $tiles && echo "\ntry again..\n" && exit
               tr -dc "[:print:]\n" < $tiles | tr -d '[:punct:]' | grep . | \
               sed 's/0/o/g;s/9/g/g;s/1/l/g;s/I/l/g' | \
               tr '[:upper:]' '[:lower:]' > /tmp/tiles.cleaned
@@ -143,8 +147,8 @@ do  [[ $move_on[@] =~ " $tile[$one] " ]] && continue
 done
         }
 loop3() {
-min_max="/tmp/wordlist-06-10-char.txt"
-awk 'length > 5 && length < 11' $smallerList > $min_max
+min_max="/tmp/wordlist-06-12-char.txt"
+awk 'length > 5 && length < 13' $smallerList > $min_max
 echo "\nsearching three-tile hits.. \n"
 for (( one=1; one<=20; one++ ))
 do  [[ $move_on[@] =~ " $tile[$one] " ]] && continue
@@ -190,11 +194,12 @@ make_dict
 done
         }
 # ================================ MAIN =====================================
-umask 111               # /tmp/ files are public
-qt_ver="ver. 2.6.12b"
+umask 111            # /tmp/ files written are public
+qt_ver="v2.6.12e"
+tiles="tiles.txt"
 masterlist="wordlist.txt" ; hits=0 ; quartiles=0 ; lookups=0
 smallerList="/tmp/wordlist.max14.chars.txt"
-tiles="tiles.txt"
+my_runtime=/tmp/quartiles.times.out
 say_greeting
 input_tiles
 say_greeting
@@ -206,7 +211,7 @@ tiles_array
 exclude_some
 loop1 ; loop2 ; loop3 ; loop4
 echo "\nTotal ($hits) words\t$(date)\n" 
-times > /tmp/quartiles.times.out
-echo "runtime: \c" ; awk 'NR==1 {print $1}' /tmp/quartiles.times.out  | sed 's/^.*m//'
+times > $my_runtime
+echo "runtime: \c" ; awk 'NR==1 {print $1}' $my_runtime | sed 's/^.*m//'
 echo "lookups: $lookups"
 kill -s SIGINT $$
