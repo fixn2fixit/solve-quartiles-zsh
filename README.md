@@ -4,7 +4,7 @@
 # SCRIPT: solve-quartiles.zsh
 # Author: Mike Carney
 # email : fixn2fixit@gmail.com
-# Date  : Septermber 07, 2025
+# Date  : September 07, 2025
 # 
 # PURPOSE
 # -------
