@@ -4,12 +4,12 @@
 # SCRIPT: solve-quartiles.zsh
 # Author: Mike Carney
 # email : fixn2fixit@gmail.com
-# Date  : September 07, 2025
+# Date  : September 15, 2025
 # 
 # PURPOSE
 # -------
-# Solve Apple News+ Quartiles puzzles
-# No brain cramps over 123,520 combinations
+# Solves Apple News+ Quartiles puzzles
+# Avoids human meltdown arranging 123,520 combinations
 #
 # INSTALL/USE
 # -----------
@@ -47,11 +47,13 @@
 # Since any particular wordlist is likely imperfect,
 # (add/del) words as puzzles reveal over days/months, etc.
 # wordlist.txt will be updated regularly for this project
-
+# 
 # LATER IMPLEMENTED
 # -----------------
 # Added checks, wordlist compatibility and tiles content
-# 
+# Sorting tiles by wordlist frequency increased speed in most cases
+# (4-tile words) do not reuse tiles, dynamically exclude those used
+#
 # PROBLEMATIC
 # -----------
 # Using an OCR scan is imperfect, can introduce multi-byte chars
