@@ -20329,6 +20329,7 @@ documentation
 documented
 documenting
 documents
+docuseries
 dodder
 doddered
 doddering
@@ -20892,6 +20893,9 @@ dramatize
 dramatized
 dramatizes
 dramatizing
+dramaturge
+dramaturges
+dramaturgy
 drams
 drank
 drape
@@ -47128,8 +47132,12 @@ oracle
 oracles
 oracular
 oral
+oralism
+oralist
+oralists
 orally
 orals
+orang
 orange
 orangeade
 orangeades
@@ -47138,6 +47146,7 @@ orangeries
 orangery
 oranges
 orangest
+orangs
 orangutan
 orangutang
 orangutangs
@@ -59307,6 +59316,7 @@ rotes
 rotgut
 rotguts
 roti
+rotis
 rotisserie
 rotisseries
 rotogravure
@@ -76254,7 +76264,6 @@ waking
 wale
 waled
 wales
-waling
 walk
 walkaway
 walkaways
