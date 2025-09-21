@@ -6678,6 +6678,8 @@ blanket
 blanketed
 blanketing
 blankets
+blankie
+blankies
 blanking
 blankly
 blankness
@@ -49105,6 +49107,8 @@ parturition
 parturitions
 partway
 party
+partygoer
+partygoers
 partying
 parvenu
 parvenus
@@ -55348,7 +55352,6 @@ rarely
 rareness
 rarenesses
 rarer
-rares
 rarest
 raring
 rarities
@@ -62972,7 +62975,6 @@ signalizes
 signalizing
 signalled
 signalling
-signally
 signalman
 signalmen
 signals
@@ -63741,7 +63743,6 @@ slightly
 slightness
 slightnesses
 slights
-slily
 slim
 slime
 slimes
