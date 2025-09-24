@@ -47086,7 +47086,6 @@ opprobrious
 opprobriously
 opprobrium
 opprobriums
-ops
 opt
 opted
 optic
@@ -54016,7 +54015,6 @@ pub
 pubertal
 puberties
 puberty
-pubes
 pubescence
 pubescences
 pubescent
@@ -62197,6 +62195,7 @@ shawls
 shay
 shays
 she
+shea
 sheaf
 shear
 sheared
