@@ -1,10 +1,10 @@
 #! /bin/zsh
-# AUTHOR  : Michael Carney, Ver. 2.6.12e, Sep. 12, 2025
+# AUTHOR  : Michael Carney, Ver. 2.6.12f, Sep. 27, 2025
 # CONTACT : fixn2fixit@gmail.com
 # USAGE   : zsh ./solve-quartiles.zsh
 # WHAT    : Solves Apple News+ Quartiles puzzles after character input from 20 tiles
 # WHY     : There are 123,520 non redundant combinations of (4 tiles) among 20 total 
-#         : Tiles contain 2-4 characters each, tiles rearrange, not characters within
+#         : Tiles contain 2-4 letters each, full tiles swap around, not their letters 
 #         : (zsh) proves the usefulness of traditional command-line scripting, no frills
 # REQUIRED: Z shell is the MacOS default, most Linux repos have (zsh) available to add
 #         : Wordplay (wordlist.txt) is intended bundled, can overwite it with your own
@@ -15,13 +15,14 @@
 #         : (tiles.txt) must have (20) tiles total, space-delimited, one or more lines
 #         : Intended/bundled (tiles.test) can be used to copy to (tiles.txt) for demo
 # WRITES  : This version writes (7) small files in /tmp/ which improves search time 
-# SPEEDY  : Typical full solution runtime 01-04 sec. using one CPU and a single thread
+# SPEEDY  : Typical full solution runtime 01-04 sec. using a single CPU and one thread
 # OPTIONAL: Hint, an OCR app can reduce typing effort, can utilize copy/paste for input
 #         : If using an OCR app to copy/paste tiles text, scans can be imperfect, check
-# YOUR JOB: Knowing how to edit a file is req'd to fix tiles.txt or modify wordlist.txt
+#         : If malformed input (hidden chars) discovered, good/bad 2-column list shown
+# TIP     : Can edit (tiles.txt) directly and use (. return) at input qustion to use it
 # UPDATED : Rewritten as functions for clarity and ease of testing 
 #         : Typed input can be backspaced for corrections, use a period to finish input
-#         : Word length ranges are based on historical analysis of 300+ actual puzzles
+#         : Word length ranges are based on historical analysis of 400+ actual puzzles
 #         : Exit if pasted or typed charaters are detected as malformed, multi-char
 #         : Increased exclusions list in loop4, reduced total searches, reduced runtime
 #         : Fixed input_tiles() bug, punctuation not allowed; therefore eliminated 
@@ -34,14 +35,12 @@
 #         : dict[@] is further reduced using only first-tile matches in current wordlist
 #         : sort_tiles() puts tiles in order of frequency that match anywhere in wordlist
 #         : Four reduced wordlist files are written to contain wordlist character ranges
-#         : Historical analysis: (min-max) char-range determined by real puzzles solved
 #         : At completion the total quantity of words discovered is displayed 
 #         : At completion the total quantity of searches expended is displayed 
 #         : When five quartile words have been found ((quartiles > 4)), searches terminate
 #         : Official Quartiles puzzles do not generate (more than five) (4-tile) words
 #         : Implemented 'exclude_some()' to exclude some tiles from first-tile searches
 #         : Does not display exclusions message if exclusions are empty
-#         : If malformed input (hidden chars) discovered, show good/bad two-column list
 # EZ PEZY : Using the (wordlist.txt) intended with this distro will save you effort
 # CAVEAT  : The quality of (wordlist.txt) determines the accuracy of solutions
 # FORMAT  : The expected format of any wordlist is one lower-case word per line
@@ -57,10 +56,9 @@ say_greeting(){ clear
               }
 input_tiles() { theseTiles=( )
               echo "Input Tips\n=========="
-              echo "You're editing or reusing: tiles.txt"
-              echo "Type one tile per line, many, or all"
+              echo "Input puzzle tiles, finish with ( .)"
               echo "Put comma or space between multiples"
-              echo "(. return) at start, reuses tiles.txt"
+              echo "If (.) only, input is from tiles.txt"
               echo "\nEnter 20 tiles, end with (. return)\n> \c"
               while read z
               do theTiles+=( $z)
@@ -195,7 +193,7 @@ done
         }
 # ================================ MAIN =====================================
 umask 111            # /tmp/ files written are public
-qt_ver="v2.6.12e"
+qt_ver="v2.6.12f"
 tiles="tiles.txt"
 masterlist="wordlist.txt" ; hits=0 ; quartiles=0 ; lookups=0
 smallerList="/tmp/wordlist.max14.chars.txt"

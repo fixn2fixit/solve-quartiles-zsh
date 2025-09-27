@@ -4,7 +4,7 @@
 # SCRIPT: solve-quartiles.zsh
 # Author: Mike Carney
 # email : fixn2fixit@gmail.com
-# Date  : September 15, 2025
+# Date  : September 27, 2025
 # 
 # PURPOSE
 # -------
@@ -14,7 +14,7 @@
 # INSTALL/USE
 # -----------
 # Expected install PATH is user's $HOME
-# Zsh must be installed or add that package first
+# Zsh must be present already or add that package first
 # Bundled: the zsh script, wordlist.txt, tiles.txt, tiles.test
 # Download qt_distro_12.tar.gz
 # Unzip and untar
@@ -40,8 +40,8 @@
 # No special libraries, no database, nothing exotic
 # No OS unique utilities (Linux vs. MacOS)
 # Minimize file searches, use memory arrays primarily
-# Must input 20 tiles (full tiles space-separated)
-# Use standard command-line tools only, shell and regex
+# Must input 20 tiles (full tiles, separate with space or comma)
+# Uses standard command-line tools only, shell and regex
 # Locate a reliable wordplay wordlist from GitHub, etc.
 # Include such wordlist in the install disto
 # Since any particular wordlist is likely imperfect,
@@ -75,7 +75,7 @@
 #
 # BENCHMARKS
 # ----------
-# Ran puzzles gathered over 250+ days
+# Ran puzzles gathered over 400+ days
 # MacOS: Intel I7    (1.0)-(4.0) sec, < 1.9 > avg
 # Linux: Ryzen 7840  (0.3)-(1.5) sec, < 0.5 > avg
 #
