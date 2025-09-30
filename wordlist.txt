@@ -40881,6 +40881,7 @@ majorities
 majority
 majors
 make
+makeable
 makeover
 makeovers
 maker
@@ -68916,9 +68917,6 @@ taboos
 tabor
 tabors
 tabs
-tabu
-tabued
-tabuing
 tabular
 tabulate
 tabulated
@@ -68928,7 +68926,6 @@ tabulation
 tabulations
 tabulator
 tabulators
-tabus
 tachometer
 tachometers
 tachycardia
