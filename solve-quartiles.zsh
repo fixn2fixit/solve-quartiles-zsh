@@ -1,5 +1,5 @@
 #! /bin/zsh
-# AUTHOR  : Michael Carney, Ver. 2.6.12f, Sep. 27, 2025
+# AUTHOR  : Michael Carney, Ver. 2.6.12g, Oct. 03, 2025
 # CONTACT : fixn2fixit@gmail.com
 # USAGE   : zsh ./solve-quartiles.zsh
 # WHAT    : Solves Apple News+ Quartiles puzzles after character input from 20 tiles
@@ -28,7 +28,7 @@
 #         : Fixed input_tiles() bug, punctuation not allowed; therefore eliminated 
 #         : Fixed exclude_some() bug, $move_on[@] patterns now match consistently
 #         : End, kill -s SIGINT $$ avoids closing Terminal when called by double-click
-# MIN-MAX : July 29, 2025 min-max character range updated based on historical analysis
+# MIN-MAX : Oct. 03, 2025 min-max character range updated based on historical analysis
 #         : Slower now by .5 sec due to 'embroils' & 'prognosticated' needing 08-14 char
 # METHODS : /tmp/ is utilized for reduction and cleanup, writes are public & disposable 
 #         : dict[@] is resized per loop(1-4) to the expected character-range (min-max)
@@ -129,8 +129,8 @@ do  [[ $move_on[@] =~ " $tile[$one] " ]] && continue
 done
         }
 loop2() {
-min_max="/tmp/wordlist-04-07-char.txt"
-awk 'length > 3 && length < 8' $smallerList > $min_max
+min_max="/tmp/wordlist-04-08-char.txt"
+awk 'length > 3 && length < 9' $smallerList > $min_max
 echo "\nsearching two-tile hits.. \n"
 for (( one=1; one<=20; one++ ))
 do  [[ $move_on[@] =~ " $tile[$one] " ]] && continue
@@ -193,7 +193,7 @@ done
         }
 # ================================ MAIN =====================================
 umask 111            # /tmp/ files written are public
-qt_ver="v2.6.12f"
+qt_ver="v2.6.12g"
 tiles="tiles.txt"
 masterlist="wordlist.txt" ; hits=0 ; quartiles=0 ; lookups=0
 smallerList="/tmp/wordlist.max14.chars.txt"

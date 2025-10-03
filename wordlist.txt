@@ -7235,6 +7235,10 @@ bodyguard
 bodyguards
 bodysuit
 bodysuits
+bodysurf
+bodysurfing
+bodysurfed
+bodysurfs
 bodywork
 bodyworks
 boffo
@@ -21521,6 +21525,7 @@ dyspeptic
 dyspeptics
 dysprosium
 dysprosiums
+dystopia
 each
 eager
 eagerer
