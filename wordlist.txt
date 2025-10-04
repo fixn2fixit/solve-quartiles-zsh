@@ -11880,6 +11880,7 @@ cirrhotic
 cirrhotics
 cirri
 cirrus
+cis
 cistern
 cisterns
 citadel
@@ -43861,6 +43862,7 @@ moonstones
 moonstruck
 moonwalk
 moonwalks
+moony
 moor
 moored
 mooring
