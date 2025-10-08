@@ -45956,6 +45956,7 @@ noose
 nooses
 nope
 nor
+nori
 norm
 normal
 normalcies
@@ -72549,8 +72550,6 @@ turbulence
 turbulences
 turbulent
 turbulently
-turd
-turds
 turducken
 turduckens
 tureen
