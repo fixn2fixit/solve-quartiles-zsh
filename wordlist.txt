@@ -66341,7 +66341,6 @@ stateswomen
 statewide
 static
 statically
-statics
 stating
 station
 stationary
