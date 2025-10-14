@@ -10604,8 +10604,6 @@ celluloses
 cement
 cementa
 cemented
-cementer
-cementers
 cementing
 cements
 cementum
@@ -29885,6 +29883,7 @@ graininesses
 grains
 grainy
 gram
+gramma
 grammar
 grammarian
 grammarians
@@ -30224,6 +30223,9 @@ griffin
 griffins
 griffon
 griffons
+grift
+grifter
+grifters
 grill
 grille
 grilled
@@ -40786,7 +40788,6 @@ magnum
 magnums
 magpie
 magpies
-mags
 magus
 maharaja
 maharajah
@@ -41716,10 +41717,6 @@ mauler
 maulers
 mauling
 mauls
-maunder
-maundered
-maundering
-maunders
 mausolea
 mausoleum
 mausoleums
@@ -51292,6 +51289,7 @@ platitude
 platitudes
 platitudinous
 platonic
+platonically
 platoon
 platooned
 platooning
@@ -51873,6 +51871,7 @@ polytheists
 polyurethane
 polyurethanes
 polyvinyl
+pomace
 pomade
 pomaded
 pomades
