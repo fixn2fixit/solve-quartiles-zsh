@@ -1,10 +1,10 @@
 #! /bin/zsh
-# AUTHOR  : Michael Carney, Ver. 2.6.12g, Oct. 03, 2025
+# AUTHOR  : Michael Carney, Ver. 2.6.13a, Oct. 19, 2025
 # CONTACT : fixn2fixit@gmail.com
 # USAGE   : zsh ./solve-quartiles.zsh
-# WHAT    : Solves Apple News+ Quartiles puzzles after character input from 20 tiles
-# WHY     : There are 123,520 non redundant combinations of (4 tiles) among 20 total 
-#         : Tiles contain 2-4 letters each, full tiles swap around, not their letters 
+# WHAT    : Solves Apple News+ Quartiles puzzles
+# WHY     : There are 123,520 non redundant combinations of (1-4 tiles) among 20 total 
+#         : Tiles contain 2-4 characters each, tiles rearrange, not characters within
 #         : (zsh) proves the usefulness of traditional command-line scripting, no frills
 # REQUIRED: Z shell is the MacOS default, most Linux repos have (zsh) available to add
 #         : Wordplay (wordlist.txt) is intended bundled, can overwite it with your own
@@ -15,14 +15,14 @@
 #         : (tiles.txt) must have (20) tiles total, space-delimited, one or more lines
 #         : Intended/bundled (tiles.test) can be used to copy to (tiles.txt) for demo
 # WRITES  : This version writes (7) small files in /tmp/ which improves search time 
-# SPEEDY  : Typical full solution runtime 01-04 sec. using a single CPU and one thread
+# SPEEDY  : Typical full solution runtime 01-04 sec. using one CPU and a single thread
 # OPTIONAL: Hint, an OCR app can reduce typing effort, can utilize copy/paste for input
 #         : If using an OCR app to copy/paste tiles text, scans can be imperfect, check
-#         : If malformed input (hidden chars) discovered, good/bad 2-column list shown
-# TIP     : Can edit (tiles.txt) directly and use (. return) at input qustion to use it
+# YOUR JOB: Knowing how to edit a file is req'd to fix tiles.txt or modify wordlist.txt
 # UPDATED : Rewritten as functions for clarity and ease of testing 
 #         : Typed input can be backspaced for corrections, use a period to finish input
-#         : Word length ranges are based on historical analysis of 400+ actual puzzles
+#         : Word length ranges are based on historical analysis of 300+ actual puzzles
+#         : Total avoided but possible lookups provided as a measurement of efficiency
 #         : Exit if pasted or typed charaters are detected as malformed, multi-char
 #         : Increased exclusions list in loop4, reduced total searches, reduced runtime
 #         : Fixed input_tiles() bug, punctuation not allowed; therefore eliminated 
@@ -35,12 +35,14 @@
 #         : dict[@] is further reduced using only first-tile matches in current wordlist
 #         : sort_tiles() puts tiles in order of frequency that match anywhere in wordlist
 #         : Four reduced wordlist files are written to contain wordlist character ranges
+#         : Historical analysis: (min-max) char-range determined by real puzzles solved
 #         : At completion the total quantity of words discovered is displayed 
 #         : At completion the total quantity of searches expended is displayed 
 #         : When five quartile words have been found ((quartiles > 4)), searches terminate
 #         : Official Quartiles puzzles do not generate (more than five) (4-tile) words
 #         : Implemented 'exclude_some()' to exclude some tiles from first-tile searches
 #         : Does not display exclusions message if exclusions are empty
+#         : If malformed input (hidden chars) discovered, show good/bad two-column list
 # EZ PEZY : Using the (wordlist.txt) intended with this distro will save you effort
 # CAVEAT  : The quality of (wordlist.txt) determines the accuracy of solutions
 # FORMAT  : The expected format of any wordlist is one lower-case word per line
@@ -114,6 +116,7 @@ exclude_some(){ # first tile searches having no matches in wordlist
               move_on+=($(grep -q ^$ea_ $smallerList || echo $ea_))
               done
               (( ${#move_on} > 0 )) && echo "Excluding first-tile searches: $move_on[@]\n"
+              exclude=$(echo $move_on | awk 'END{print (1/(20/NF)*123520)}')
               echo "TILE ARRAY\n----------\n$tile[@]\n"
               }
 loop1() {
@@ -193,7 +196,8 @@ done
         }
 # ================================ MAIN =====================================
 umask 111            # /tmp/ files written are public
-qt_ver="v2.6.12g"
+qt_ver="v2.6.13a"
+possible="123520"
 tiles="tiles.txt"
 masterlist="wordlist.txt" ; hits=0 ; quartiles=0 ; lookups=0
 smallerList="/tmp/wordlist.max14.chars.txt"
@@ -210,6 +214,9 @@ exclude_some
 loop1 ; loop2 ; loop3 ; loop4
 echo "\nTotal ($hits) words\t$(date)\n" 
 times > $my_runtime
-echo "runtime: \c" ; awk 'NR==1 {print $1}' $my_runtime | sed 's/^.*m//'
-echo "lookups: $lookups"
+echo "runtime : \c" ; awk 'NR==1 {print $1}' $my_runtime | sed 's/^.*m//'
+echo "lookups : $lookups"
+echo "excluded: $exclude"
+unused=$(awk -v L=$lookups -v P=$possible 'BEGIN{print int(100-(100/(P/L)))"%"}')
+echo "\n$unused of possible brute-force lookups were avoided"
 kill -s SIGINT $$
