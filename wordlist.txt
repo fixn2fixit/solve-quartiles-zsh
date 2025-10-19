@@ -32543,8 +32543,6 @@ hoed
 hoedown
 hoedowns
 hoeing
-hoer
-hoers
 hoes
 hog
 hogan
@@ -38884,6 +38882,8 @@ leasts
 leastways
 leastwise
 leather
+leatherback
+leatherbacks
 leatherette
 leatherettes
 leatherneck
@@ -46967,6 +46967,7 @@ onscreen
 onset
 onsets
 onshore
+onshoring
 onside
 onslaught
 onslaughts
@@ -54268,6 +54269,9 @@ pupa
 pupae
 pupal
 pupas
+pupate
+pupated
+pupating
 pupil
 pupils
 pupped
