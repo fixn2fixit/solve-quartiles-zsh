@@ -35986,6 +35986,7 @@ integrities
 integrity
 integument
 integuments
+intel
 intellect
 intellects
 intellectual
@@ -58453,6 +58454,7 @@ reveilles
 revel
 revelation
 revelations
+revelatory
 reveled
 reveler
 revelers
