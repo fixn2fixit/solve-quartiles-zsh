@@ -40020,10 +40020,6 @@ logistics
 logjam
 logjams
 logo
-logoff
-logoffs
-logon
-logons
 logos
 logotype
 logotypes
@@ -42645,7 +42641,6 @@ mike
 miked
 mikes
 miking
-mil
 miladies
 milady
 milch
@@ -42665,8 +42660,6 @@ mileage
 mileages
 milepost
 mileposts
-miler
-milers
 miles
 milestone
 milestones
@@ -44403,6 +44396,8 @@ multilayers
 multilevel
 multilingual
 multimedia
+multimillion
+multimillions
 multinational
 multiplayer
 multiple
