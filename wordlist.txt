@@ -6156,6 +6156,7 @@ beys
 bezel
 bezels
 bi
+bialy
 biannual
 biannually
 bias
