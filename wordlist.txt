@@ -64777,6 +64777,8 @@ sonata
 sonatas
 sonatina
 sonatinas
+sone
+sones
 song
 songbird
 songbirds
