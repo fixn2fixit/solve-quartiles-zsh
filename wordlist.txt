@@ -20581,8 +20581,6 @@ doorway
 doorways
 dooryard
 dooryards
-dopa
-dopas
 dope
 doped
 doper
