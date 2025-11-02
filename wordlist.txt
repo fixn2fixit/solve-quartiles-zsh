@@ -48396,6 +48396,8 @@ paddleboard
 paddleboarded
 paddleboarding
 paddleboards
+paddleboat
+paddleboats
 paddled
 paddler
 paddlers
