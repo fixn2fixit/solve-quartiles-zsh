@@ -58788,6 +58788,9 @@ riders
 ridership
 riderships
 rides
+rideshare
+rideshares
+ridesharing
 ridge
 ridged
 ridgepole
