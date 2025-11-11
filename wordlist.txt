@@ -20638,8 +20638,6 @@ dotcom
 dotcoms
 dote
 doted
-doter
-doters
 dotes
 doth
 doting
@@ -26072,6 +26070,8 @@ fitting
 fittingly
 fittings
 five
+fiver
+fivers
 fives
 fix
 fixable
@@ -38089,6 +38089,8 @@ kohlrabi
 kohlrabies
 kola
 kolas
+kombucha
+kombuchas
 kook
 kookaburra
 kookaburras
@@ -45551,6 +45553,7 @@ nirvanas
 nisei
 niseis
 nit
+niter
 nitpick
 nitpicked
 nitpicker
@@ -57116,8 +57119,6 @@ relate
 related
 relatedness
 relatednesses
-relater
-relaters
 relates
 relating
 relation
