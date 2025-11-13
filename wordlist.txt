@@ -29773,6 +29773,8 @@ gossips
 gossipy
 got
 gotcha
+goth
+goths
 gotta
 gotten
 gouge
@@ -51637,6 +51639,8 @@ poetically
 poetries
 poetry
 poets
+pogo
+pogos
 pogrom
 pogroms
 poi
