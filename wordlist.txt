@@ -2126,6 +2126,7 @@ amphitheatres
 amphora
 amphorae
 amphoras
+amping
 ample
 ampler
 amplest
@@ -49970,7 +49971,6 @@ perihelion
 perihelions
 peril
 periled
-periling
 perilled
 perilling
 perilous
