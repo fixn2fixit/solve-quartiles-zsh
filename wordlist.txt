@@ -11428,7 +11428,6 @@ chinaware
 chinawares
 chinchilla
 chinchillas
-chines
 chink
 chinked
 chinking
@@ -70789,6 +70788,7 @@ tinsmith
 tinsmiths
 tint
 tinted
+tinter
 tinting
 tints
 tintype
