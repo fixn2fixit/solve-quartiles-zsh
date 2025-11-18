@@ -62206,7 +62206,6 @@ sharpshooter
 sharpshooters
 sharpshooting
 sharpy
-shat
 shatter
 shattered
 shattering
