@@ -11987,6 +11987,8 @@ clamped
 clamping
 clamps
 clams
+clamshell
+clamshells
 clan
 clandestine
 clandestinely
@@ -61812,6 +61814,8 @@ sequins
 sequoia
 sequoias
 sera
+serac
+seracs
 seraglio
 seraglios
 serape
