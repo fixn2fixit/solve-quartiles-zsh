@@ -19684,6 +19684,7 @@ dishwasher
 dishwashers
 dishwater
 dishwaters
+dishy
 disillusion
 disillusioned
 disillusions
@@ -33663,6 +33664,7 @@ hyperlinking
 hyperlinks
 hypermedia
 hypermedias
+hyperspace
 hypertension
 hypertensions
 hypertensive
