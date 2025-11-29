@@ -4,7 +4,7 @@
 # SCRIPT: solve-quartiles.zsh
 # Author: Mike Carney
 # email : fixn2fixit@gmail.com
-# Date  : October 19, 2025
+# Date  : November 29, 2025
 # 
 # PURPOSE
 # -------
@@ -16,10 +16,10 @@
 # Zsh must be installed or add that package first
 # Where: wherever you want to use the script, download files there
 # Expected typical location is user's $HOME path
-# Bundled: solve-quartiles.zsh, wordlist.txt, tiles.txt, tiles.test
-# Download: qt_distro_13.tar.gz
-# Extract distro by: tar -xvzf qt_distro_13.tar.gz
-# cd QT_DISTRO_13
+# Bundled: solve-quartiles.zsh, wordlist.txt, tiles.txt, tiles.test, README.md
+# Download: qt_distro_14.tar.gz
+# Extract distro by: tar -xvzf qt_distro_14.tar.gz
+# cd QT_DISTRO_14
 # Solve puzzles with: zsh solve-quartiles.zsh
 
 # TO PLAY 
@@ -39,12 +39,12 @@
 # -----------------------------
 # No special libraries, no database, nothing exotic
 # No OS unique utilities (Linux vs. MacOS)
-# Minimize file searches, use memory arrays primarily
+# Minimized file searches, used memory arrays primarily
 # Must input 20 tiles (full tiles space-separated)
-# Use standard command-line tools only, shell and regex
-# Locate a reliable wordplay wordlist from GitHub, etc.
-# Include such wordlist in the install disto
-# Since any particular wordlist is likely imperfect,
+# Used standard command-line tools only, shell and regex
+# Located a reliable wordplay wordlist from GitHub, etc.
+# Included such wordlist in the install disto
+# Because any particular wordlist is likely imperfect,
 # (add/del) words as puzzles reveal over days/months, etc.
 # wordlist.txt will be updated regularly for this project
 # 
@@ -56,10 +56,10 @@
 #
 # PROBLEMATIC
 # -----------
-# Using an OCR scan is imperfect, can introduce multi-byte chars
+# Optional OCR scanning is imperfect, can introduce multi-byte chars
 # Multi-byte character cleanup is an elusive conundrum
-# Wordlists for download are predominately DOS formatted
-# wordlist.txt gets scrubbed, keep any originals you overwrite with
+# Wordlists found for download are predominately DOS formatted
+# wordlist.txt gets scrubbed, preserve any originals you overwrite 
 # Standard -nix utilities don't play well with CRLF terminated files
 # 
 # SETTLED ON ZSH OVER BASH

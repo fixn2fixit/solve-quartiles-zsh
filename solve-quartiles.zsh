@@ -1,5 +1,5 @@
 #! /bin/zsh
-# AUTHOR  : Michael Carney, Ver. 2.6.13a, Oct. 19, 2025
+# AUTHOR  : Michael Carney, Ver. 2.7.14, Nov. 29, 2025
 # CONTACT : fixn2fixit@gmail.com
 # USAGE   : zsh ./solve-quartiles.zsh
 # WHAT    : Solves Apple News+ Quartiles puzzles
@@ -23,7 +23,7 @@
 #         : Typed input can be backspaced for corrections, use a period to finish input
 #         : Word length ranges are based on historical analysis of 300+ actual puzzles
 #         : Total avoided but possible lookups provided as a measurement of efficiency
-#         : Exit if pasted or typed charaters are detected as malformed, multi-char
+#         : Exit if pasted or typed characters are detected as malformed, multi-char
 #         : Increased exclusions list in loop4, reduced total searches, reduced runtime
 #         : Fixed input_tiles() bug, punctuation not allowed; therefore eliminated 
 #         : Fixed exclude_some() bug, $move_on[@] patterns now match consistently
@@ -59,7 +59,7 @@ say_greeting(){ clear
 input_tiles() { theseTiles=( )
               echo "Input Tips\n=========="
               echo "Input puzzle tiles, finish with ( .)"
-              echo "Put comma or space between multiples"
+              echo "Put 1 or more per line, spaced apart" 
               echo "If (.) only, input is from tiles.txt"
               echo "\nEnter 20 tiles, end with (. return)\n> \c"
               while read z
@@ -196,7 +196,7 @@ done
         }
 # ================================ MAIN =====================================
 umask 111            # /tmp/ files written are public
-qt_ver="v2.6.13a"
+qt_ver="v2.7.14"
 possible="123520"
 tiles="tiles.txt"
 masterlist="wordlist.txt" ; hits=0 ; quartiles=0 ; lookups=0
