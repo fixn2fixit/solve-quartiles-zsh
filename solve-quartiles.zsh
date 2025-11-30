@@ -59,7 +59,7 @@ say_greeting(){ clear
 input_tiles() { theseTiles=( )
               echo "Input Tips\n=========="
               echo "Input puzzle tiles, finish with ( .)"
-              echo "Put 1 or more per line, spaced apart" 
+              echo "1 or more per line, space them apart" 
               echo "If (.) only, input is from tiles.txt"
               echo "\nEnter 20 tiles, end with (. return)\n> \c"
               while read z
