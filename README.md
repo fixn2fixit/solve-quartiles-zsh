@@ -1,6 +1,6 @@
 # solve-quartiles-zsh
 # Solve Apple News+ Quartiles Puzzles with Z-shell
-# README: README file, ver. 2.6.xx
+# README: README file, ver. 2.7.xx
 # SCRIPT: solve-quartiles.zsh
 # Author: Mike Carney
 # email : fixn2fixit@gmail.com
