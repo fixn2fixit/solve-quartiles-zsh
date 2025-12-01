@@ -1,5 +1,5 @@
 #! /bin/zsh
-# AUTHOR  : Michael Carney, Ver. 2.7.14, Nov. 29, 2025
+# AUTHOR  : Michael Carney, Ver. 2.7.15, Dec. 01, 2025
 # CONTACT : fixn2fixit@gmail.com
 # USAGE   : zsh ./solve-quartiles.zsh
 # WHAT    : Solves Apple News+ Quartiles puzzles
@@ -20,8 +20,9 @@
 #         : If using an OCR app to copy/paste tiles text, scans can be imperfect, check
 # YOUR JOB: Knowing how to edit a file is req'd to fix tiles.txt or modify wordlist.txt
 # UPDATED : Rewritten as functions for clarity and ease of testing 
+#         : Each tile length (2-4 chars) is checked as well as total tiles = 20
 #         : Typed input can be backspaced for corrections, use a period to finish input
-#         : Word length ranges are based on historical analysis of 300+ actual puzzles
+#         : Word length ranges are based on historical analysis of 400+ actual puzzles
 #         : Total avoided but possible lookups provided as a measurement of efficiency
 #         : Exit if pasted or typed characters are detected as malformed, multi-char
 #         : Increased exclusions list in loop4, reduced total searches, reduced runtime
@@ -88,6 +89,8 @@ check_tiles() {  # checking because OCR scans may introduce hidden ctrl chars or
               [ -s $tiles ] && qty=$(awk 'BEGIN{n=0} /./ {n+=NF} END{print n}' $tiles)
               echo "$qty tiles"
               (($qty != 20 )) && echo && cat $tiles && echo "\ntry again..\n" && exit
+              invalid=$(cat $tiles | xargs -n1 | awk 'length > 4 || length < 2') 
+              [[ $invalid ]] && echo "\nlength errors (try again)\n=============\n$invalid\n" && exit
               tr -dc "[:print:]\n" < $tiles | tr -d '[:punct:]' | grep . | \
               sed 's/0/o/g;s/9/g/g;s/1/l/g;s/I/l/g' | \
               tr '[:upper:]' '[:lower:]' > /tmp/tiles.cleaned
@@ -196,7 +199,7 @@ done
         }
 # ================================ MAIN =====================================
 umask 111            # /tmp/ files written are public
-qt_ver="v2.7.14"
+qt_ver="v2.7.15"
 possible="123520"
 tiles="tiles.txt"
 masterlist="wordlist.txt" ; hits=0 ; quartiles=0 ; lookups=0

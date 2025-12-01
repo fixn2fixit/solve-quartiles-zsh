@@ -4,7 +4,7 @@
 # SCRIPT: solve-quartiles.zsh
 # Author: Mike Carney
 # email : fixn2fixit@gmail.com
-# Date  : November 29, 2025
+# Date  : December 01, 2025
 # 
 # PURPOSE
 # -------
@@ -17,9 +17,9 @@
 # Where: wherever you want to use the script, download files there
 # Expected typical location is user's $HOME path
 # Bundled: solve-quartiles.zsh, wordlist.txt, tiles.txt, tiles.test, README.md
-# Download: qt_distro_14.tar.gz
-# Extract distro by: tar -xvzf qt_distro_14.tar.gz
-# cd QT_DISTRO_14
+# Download: qt_distro_15.tar.gz
+# Extract distro by: tar -xvzf qt_distro_15.tar.gz
+# cd QT_DISTRO_15
 # Solve puzzles with: zsh solve-quartiles.zsh
 
 # TO PLAY 
