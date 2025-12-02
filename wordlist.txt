@@ -52345,6 +52345,7 @@ pouch
 pouched
 pouches
 pouching
+poult
 poulterer
 poulterers
 poultice
@@ -52353,6 +52354,7 @@ poultices
 poulticing
 poultries
 poultry
+poults
 pounce
 pounced
 pounces
@@ -68288,7 +68290,6 @@ suppurates
 suppurating
 suppuration
 suppurations
-supra
 supranational
 supremacies
 supremacist
