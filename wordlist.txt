@@ -75862,7 +75862,6 @@ visibilities
 visibility
 visible
 visibly
-vising
 vision
 visionaries
 visionary
@@ -75870,6 +75869,7 @@ visioned
 visioning
 visions
 visit
+visitable
 visitant
 visitants
 visitation
