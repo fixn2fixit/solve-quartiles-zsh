@@ -24274,6 +24274,7 @@ expansions
 expansive
 expansively
 expansiveness
+expat
 expatiate
 expatiated
 expatiates
@@ -24286,6 +24287,7 @@ expatriates
 expatriating
 expatriation
 expatriations
+expats
 expect
 expectancies
 expectancy
@@ -78052,6 +78054,7 @@ works
 worksheet
 worksheets
 workshop
+workshopping
 workshops
 workstation
 workstations
