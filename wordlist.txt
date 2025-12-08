@@ -23903,6 +23903,7 @@ evolve
 evolved
 evolves
 evolving
+ew
 ewe
 ewer
 ewers
@@ -27405,6 +27406,7 @@ fountains
 founts
 four
 fourfold
+flouring
 fourposter
 fourposters
 fours
@@ -62355,11 +62357,6 @@ sheriff
 sheriffs
 sherries
 sherry
-shew
-shewed
-shewing
-shewn
-shews
 shh
 shiatsu
 shiatsus
