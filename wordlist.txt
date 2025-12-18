@@ -38803,7 +38803,6 @@ lazing
 lazy
 lazybones
 lazying
-lea
 leach
 leached
 leaches
@@ -38884,7 +38883,6 @@ learning
 learnings
 learns
 learnt
-leas
 lease
 leaseback
 leasebacks
