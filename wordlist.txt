@@ -58012,6 +58012,12 @@ resistless
 resistor
 resistors
 resists
+resize
+resized
+resizer
+resizes
+resizers
+resizing
 resold
 resole
 resoled
