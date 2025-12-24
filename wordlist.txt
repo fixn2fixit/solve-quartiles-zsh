@@ -32855,6 +32855,8 @@ hoodwinks
 hooey
 hooeys
 hoof
+hoofbeat
+hoofbeats
 hoofed
 hoofing
 hoofs
