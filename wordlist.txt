@@ -36047,8 +36047,6 @@ intentional
 intentionally
 intentions
 intently
-intentness
-intentnesses
 intents
 inter
 interact
