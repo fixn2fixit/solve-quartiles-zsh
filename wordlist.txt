@@ -3853,6 +3853,8 @@ atheist
 atheistic
 atheists
 athirst
+athleisure
+athleisures
 athlete
 athletes
 athletic
@@ -6409,6 +6411,8 @@ biomass
 biomasses
 biome
 biomes
+biometric
+biometrics
 bionic
 bionically
 bionics
@@ -7987,6 +7991,8 @@ breading
 breadline
 breadlines
 breads
+breadstick
+breadsticks
 breadth
 breadths
 breadwinner
@@ -7998,6 +8004,9 @@ breakage
 breakages
 breakaway
 breakaways
+breakdance
+breakdances
+breakdancing
 breakdown
 breakdowns
 breaker
@@ -9654,6 +9663,10 @@ canonized
 canonizes
 canonizing
 canons
+canoodle
+canoodled
+canoodles
+canoodling
 canopied
 canopies
 canopy
@@ -11549,6 +11562,8 @@ chocoholics
 chocolate
 chocolates
 chocolatey
+chocolatier
+chocolatiers
 chocolaty
 choice
 choicer
@@ -12212,6 +12227,8 @@ cliche
 cliched
 cliches
 click
+clickbait
+clickbaits
 clicked
 clicker
 clickers
@@ -15226,6 +15243,7 @@ counterspy
 countersunk
 countertenor
 countertenors
+counterstrike
 countervail
 countervailed
 countervails
@@ -19026,6 +19044,8 @@ digitalize
 digitalized
 digitalizes
 digitally
+digitization
+digitizations
 digitize
 digitized
 digitizes
@@ -27569,6 +27589,7 @@ freak
 freaked
 freakier
 freakiest
+freakiness
 freaking
 freakish
 freakishly
@@ -28636,6 +28657,7 @@ gatehouse
 gatehouses
 gatekeeper
 gatekeepers
+gatekeeping
 gatepost
 gateposts
 gates
@@ -30041,6 +30063,8 @@ grassiest
 grassing
 grassland
 grasslands
+grassroot
+grassroots
 grassy
 grate
 grated
@@ -30185,6 +30209,10 @@ greenrooms
 greens
 greensward
 greenswards
+greenwash
+greenwashed
+greenwashes
+greenwashing
 greenwood
 greenwoods
 greet
@@ -38142,6 +38170,7 @@ kroner
 kronor
 kronur
 krypton
+kryptonite
 kryptons
 kuchen
 kuchens
@@ -42482,6 +42511,8 @@ mewled
 mewling
 mewls
 mews
+meze
+mezes
 mezzanine
 mezzanines
 mezzo
@@ -45587,10 +45618,12 @@ nitres
 nitrification
 nitrite
 nitrites
+nitro
 nitrogen
 nitrogenous
 nitrogens
 nitroglycerin
+nitrous
 nits
 nitwit
 nitwits
@@ -60680,6 +60713,7 @@ scepticisms
 sceptics
 sceptre
 sceptres
+schadenfreude
 schedule
 scheduled
 schedules
@@ -61637,6 +61671,7 @@ semesters
 semi
 semiannual
 semiannually
+semiaquatic
 semiarid
 semiautomatic
 semicircle
@@ -63182,6 +63217,8 @@ simplify
 simplifying
 simplistic
 simply
+simulacrum
+simulacrums
 simulate
 simulated
 simulates
@@ -64043,6 +64080,8 @@ smarting
 smartly
 smartness
 smartnesses
+smartphone
+smartphones
 smarts
 smartwatch
 smartwatches
@@ -66478,6 +66517,7 @@ steamiest
 steaminess
 steaminesses
 steaming
+steampunk
 steamroll
 steamrolled
 steamroller
@@ -68457,6 +68497,7 @@ suspicious
 suspiciously
 sustain
 sustainable
+sustainably
 sustained
 sustaining
 sustains
@@ -73108,6 +73149,11 @@ unawarenesses
 unawares
 unbaked
 unbalanced
+unban
+unbanned
+unbanning
+unbannings
+unbans
 unbaptized
 unbar
 unbarred
@@ -74272,6 +74318,7 @@ unrealized
 unreasonable
 unreasonably
 unreasoning
+unreceptive
 unrecognized
 unrecorded
 unrecoverable
@@ -78432,6 +78479,8 @@ yellowish
 yellowness
 yellownesses
 yellows
+yellowtail
+yellowtails
 yellowy
 yells
 yelp
