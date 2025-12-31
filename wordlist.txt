@@ -6355,6 +6355,7 @@ binder
 binderies
 binders
 bindery
+bindi
 binding
 bindings
 binds
@@ -7458,6 +7459,8 @@ bookend
 bookended
 bookending
 bookends
+booker
+bookers
 bookie
 bookies
 booking
@@ -20180,6 +20183,7 @@ disuse
 disused
 disuses
 disusing
+dit
 ditch
 ditched
 ditches
@@ -20190,6 +20194,7 @@ ditherer
 ditherers
 dithering
 dithers
+dits
 ditsier
 ditsiest
 ditsy
@@ -29636,8 +29641,6 @@ godsend
 godsends
 godson
 godsons
-goer
-goers
 goes
 gofer
 gofers
@@ -29722,6 +29725,7 @@ goodwill
 goodwills
 goody
 gooey
+gooeyness
 goof
 goofball
 goofballs
