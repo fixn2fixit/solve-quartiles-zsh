@@ -12877,6 +12877,7 @@ cold
 coldblooded
 colder
 coldest
+coldhearted
 coldly
 coldness
 coldnesses
@@ -64037,6 +64038,7 @@ slurs
 slush
 slushes
 slushier
+slushies
 slushiest
 slushiness
 slushinesses
@@ -77714,6 +77716,8 @@ winsomenesses
 winsomer
 winsomest
 winter
+winterberries
+winterberry
 wintered
 wintergreen
 wintergreens
