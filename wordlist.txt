@@ -39555,6 +39555,9 @@ limestone
 limestones
 limier
 limiest
+liminal
+liminalities
+liminality
 liming
 limit
 limitation
@@ -54029,7 +54032,6 @@ psalmists
 psalms
 psalteries
 psaltery
-pseudo
 pseudonym
 pseudonymous
 pseudonyms
@@ -64099,6 +64101,7 @@ smasher
 smashers
 smashes
 smashing
+smashingly
 smashup
 smashups
 smattering
