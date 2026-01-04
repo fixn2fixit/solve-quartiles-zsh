@@ -1149,8 +1149,10 @@ aerodromes
 aerodynamic
 aerodynamics
 aeronautic
+aeronaut
 aeronautical
 aeronautics
+aeronauts
 aeroplane
 aeroplanes
 aerosol
@@ -2439,6 +2441,7 @@ anklebones
 ankles
 anklet
 anklets
+annal
 annalist
 annalists
 annals
@@ -10627,6 +10630,7 @@ celluloid
 celluloids
 cellulose
 celluloses
+cels
 cement
 cementa
 cemented
@@ -11325,6 +11329,7 @@ chewing
 chews
 chewy
 chi
+chia
 chiaroscuro
 chiaroscuros
 chic
@@ -22713,6 +22718,11 @@ encrustations
 encrusted
 encrusting
 encrusts
+encrypt
+encrypted
+encryption
+encryptions
+encrypting
 encumber
 encumbered
 encumbering
@@ -29575,6 +29585,7 @@ goalkeeper
 goalkeepers
 goalkeeping
 goalkeepings
+goalless
 goalpost
 goalposts
 goals
@@ -30701,6 +30712,7 @@ gulleys
 gullibilities
 gullibility
 gullible
+gullibly
 gullies
 gulling
 gulls
@@ -32222,6 +32234,7 @@ hers
 herself
 hertz
 hertzes
+hes
 hesitance
 hesitances
 hesitancies
@@ -53632,6 +53645,12 @@ promulgation
 promulgations
 promulgator
 promulgators
+pronate
+pronated
+pronates
+pronating
+pronation
+pronations
 prone
 proneness
 pronenesses
@@ -66506,6 +66525,8 @@ steakhouse
 steakhouses
 steaks
 steal
+stealer
+stealers
 stealing
 steals
 stealth
