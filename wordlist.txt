@@ -7499,6 +7499,8 @@ boom
 boombox
 boomboxes
 boomed
+boomer
+boomers
 boomerang
 boomeranged
 boomeranging
@@ -42719,6 +42721,8 @@ mileage
 mileages
 milepost
 mileposts
+miler
+milers
 miles
 milestone
 milestones
@@ -78588,6 +78592,8 @@ youth
 youthful
 youthfully
 youthfulness
+youthquake
+youthquakes
 youths
 yow
 yowl
