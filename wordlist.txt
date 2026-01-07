@@ -40299,6 +40299,7 @@ lounged
 lounger
 loungers
 lounges
+loungewear
 lounging
 lour
 loured
@@ -67670,6 +67671,8 @@ submits
 submitted
 submitting
 subnormal
+suboptimal
+suboptimally
 suborbital
 suborder
 suborders
