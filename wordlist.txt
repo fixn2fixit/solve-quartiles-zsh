@@ -40538,6 +40538,8 @@ lunchrooms
 lunchtime
 lunchtimes
 lune
+lunette
+lunettes
 lung
 lunge
 lunged
@@ -41961,6 +41963,7 @@ mechanized
 mechanizes
 mechanizing
 medal
+medaling
 medalist
 medalists
 medallion
@@ -59629,6 +59632,10 @@ rubric
 rubrics
 rubs
 ruby
+ruche
+ruched
+ruches
+ruching
 rucksack
 rucksacks
 ruckus
