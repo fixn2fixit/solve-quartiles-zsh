@@ -24849,6 +24849,8 @@ faddist
 faddists
 fade
 faded
+fader
+faders
 fades
 fading
 fads
@@ -39476,6 +39478,8 @@ ligature
 ligatured
 ligatures
 ligaturing
+liger
+ligers
 light
 lighted
 lighten
@@ -45634,6 +45638,7 @@ nisei
 niseis
 nit
 niter
+niters
 nitpick
 nitpicked
 nitpicker
