@@ -2867,7 +2867,6 @@ apothegms
 apotheoses
 apotheosis
 app
-appal
 appall
 appalled
 appalling
@@ -2875,7 +2874,6 @@ appallingly
 appalls
 appaloosa
 appaloosas
-appals
 apparatus
 apparatuses
 apparel
