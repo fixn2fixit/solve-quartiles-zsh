@@ -2276,6 +2276,7 @@ ancestress
 ancestresses
 ancestries
 ancestry
+ancho
 anchor
 anchorage
 anchorages
@@ -2290,6 +2291,7 @@ anchorpersons
 anchors
 anchorwoman
 anchorwomen
+anchos
 anchovies
 anchovy
 ancient
@@ -2392,7 +2394,6 @@ angular
 angularities
 angularity
 anhydrous
-ani
 aniline
 anilines
 animadversion
@@ -9493,6 +9494,8 @@ cameramen
 cameras
 camerawoman
 camerawomen
+cami
+camis
 camisole
 camisoles
 camomile
@@ -20848,6 +20851,10 @@ dowser
 dowsers
 dowses
 dowsing
+dox
+doxed
+doxing
+doxes
 doxologies
 doxology
 doyen
@@ -21964,6 +21971,7 @@ egged
 egghead
 eggheads
 egging
+eggless
 eggnog
 eggnogs
 eggplant
@@ -42509,8 +42517,6 @@ meticulously
 metier
 metiers
 meting
-metre
-metres
 metric
 metrical
 metrically
@@ -60062,6 +60068,7 @@ salamis
 salaried
 salaries
 salary
+salat
 sale
 saleable
 sales
@@ -61943,11 +61950,9 @@ serene
 serenely
 sereneness
 serenenesses
-serener
 serenest
 serenities
 serenity
-serer
 serest
 serf
 serfdom
