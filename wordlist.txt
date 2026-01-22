@@ -9681,7 +9681,6 @@ canopies
 canopy
 canopying
 cans
-canst
 cant
 cantabile
 cantaloup
@@ -40152,6 +40151,11 @@ lonesome
 lonesomely
 lonesomeness
 long
+longboard
+longboarder
+longboarders
+longboarding
+longboards
 longboat
 longboats
 longbow
@@ -61133,6 +61137,8 @@ scribbles
 scribbling
 scribe
 scribes
+scried
+scries
 scrim
 scrimmage
 scrimmaged
@@ -61223,6 +61229,8 @@ scrutinized
 scrutinizes
 scrutinizing
 scrutiny
+scry
+scrying
 scuba
 scubaed
 scubaing
@@ -66480,7 +66488,9 @@ stateswomen
 statewide
 static
 statically
+statin
 stating
+statins
 station
 stationary
 stationed
