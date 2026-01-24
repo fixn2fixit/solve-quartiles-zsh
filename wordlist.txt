@@ -17432,6 +17432,11 @@ decries
 decriminalize
 decry
 decrying
+decrypt
+decrypted
+decrypting
+decryption
+decrypts
 dedicate
 dedicated
 dedicates
@@ -32244,7 +32249,6 @@ hers
 herself
 hertz
 hertzes
-hes
 hesitance
 hesitances
 hesitancies
@@ -38611,7 +38615,6 @@ laryngitides
 laryngitis
 larynx
 larynxes
-las
 lasagna
 lasagnas
 lasagne
@@ -38625,6 +38628,8 @@ lashed
 lashes
 lashing
 lashings
+lasing
+lasings
 lass
 lasses
 lassie
@@ -38981,7 +38986,6 @@ leavers
 leaves
 leaving
 leavings
-lech
 lecher
 lecheries
 lecherous
@@ -77179,6 +77183,8 @@ wharf
 wharfs
 wharves
 what
+whataboutism
+whataboutisms
 whatever
 whatnot
 whatnots
