@@ -37729,6 +37729,7 @@ kelp
 kelps
 kelvin
 kelvins
+ken
 kennel
 kenneled
 kenneling
@@ -47094,6 +47095,8 @@ ooh
 oohed
 oohing
 oohs
+oolong
+oolongs
 oops
 ooze
 oozed
@@ -68844,6 +68847,8 @@ switchboard
 switchboards
 switched
 switcher
+switcheroo
+switcheroos
 switchers
 switches
 switching
@@ -75692,8 +75697,6 @@ vestryman
 vestrymen
 vests
 vet
-vetch
-vetches
 veteran
 veterans
 veterinarian
