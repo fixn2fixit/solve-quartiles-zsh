@@ -36715,6 +36715,8 @@ ironies
 ironing
 ironings
 irons
+ironsmith
+ironsmiths
 ironstone
 ironstones
 ironware
@@ -77982,6 +77984,7 @@ woes
 wok
 woke
 woken
+wokest
 woks
 wold
 wolds
@@ -78080,7 +78083,6 @@ woodies
 woodiest
 woodiness
 woodinesses
-wooding
 woodland
 woodlands
 woodlot
