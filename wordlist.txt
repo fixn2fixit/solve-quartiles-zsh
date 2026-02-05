@@ -1805,8 +1805,6 @@ almanacs
 almighty
 almond
 almonds
-almoner
-almoners
 almost
 alms
 almshouse
@@ -40985,6 +40983,8 @@ majored
 majorette
 majorettes
 majoring
+majoritarian
+majoritarians
 majorities
 majority
 majors
@@ -53311,6 +53311,7 @@ privacies
 privacy
 private
 privateer
+privateering
 privateers
 privately
 privater
@@ -53689,7 +53690,6 @@ pronations
 prone
 proneness
 pronenesses
-proner
 pronest
 prong
 pronged
