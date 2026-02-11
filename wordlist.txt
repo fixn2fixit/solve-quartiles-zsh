@@ -4851,6 +4851,8 @@ bandstand
 bandstands
 bandwagon
 bandwagons
+bandwidth
+bandwidths
 bandy
 bandying
 bane
@@ -38623,6 +38625,9 @@ lasagne
 lasagnes
 lascivious
 lasciviously
+lase
+lased
+lasing
 laser
 lasers
 lash
@@ -47678,6 +47683,8 @@ outies
 outing
 outings
 outlaid
+outland
+outlands
 outlandish
 outlandishly
 outlast
@@ -77547,6 +77554,8 @@ widespread
 widest
 widgeon
 widgeons
+widget
+widgets
 widow
 widowed
 widower
