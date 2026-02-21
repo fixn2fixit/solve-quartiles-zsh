@@ -18336,6 +18336,7 @@ derangement
 derangements
 deranges
 deranging
+derate
 derated
 derbies
 derby
@@ -52054,6 +52055,7 @@ pongee
 pongees
 poniard
 poniards
+ponied
 ponies
 ponging
 pontiff
