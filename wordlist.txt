@@ -10717,9 +10717,6 @@ centralizes
 centralizing
 centrally
 centrals
-centre
-centred
-centres
 centrifugal
 centrifugally
 centrifuge
@@ -67518,6 +67515,8 @@ stultifies
 stultify
 stultifying
 stumble
+stumblebum
+stumblebums
 stumbled
 stumbler
 stumblers
