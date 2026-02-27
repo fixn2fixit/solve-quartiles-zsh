@@ -16181,10 +16181,15 @@ cryosurgery
 crypt
 cryptic
 cryptically
+crypto
 cryptogram
 cryptograms
 cryptographer
 cryptography
+cryptologist
+cryptologists
+cryptology
+cryptozoology
 crypts
 crystal
 crystalline
