@@ -593,6 +593,8 @@ acidosis
 acids
 acidulous
 acing
+ackee
+ackees
 acknowledge
 acknowledged
 acknowledges
@@ -29977,6 +29979,8 @@ gramp
 grampus
 grampuses
 grams
+gran
+grans
 granaries
 granary
 grand
@@ -30219,7 +30223,6 @@ greediest
 greedily
 greediness
 greedinesses
-greeds
 greedy
 green
 greenback
