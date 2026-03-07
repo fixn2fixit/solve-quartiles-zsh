@@ -20772,14 +20772,10 @@ dowdinesses
 dowdy
 dowel
 doweled
-doweling
 dowelled
 dowelling
 dowels
-dower
 dowered
-dowering
-dowers
 down
 downbeat
 downbeats
@@ -20850,6 +20846,10 @@ downtrends
 downtrodden
 downturn
 downturns
+downvote
+downvoted
+downvoting
+downvotes
 downward
 downwards
 downwind
@@ -40334,10 +40334,6 @@ loungers
 lounges
 loungewear
 lounging
-lour
-loured
-louring
-lours
 louse
 louses
 lousier
@@ -49794,7 +49790,6 @@ pelt
 pelted
 pelting
 pelts
-pelves
 pelvic
 pelvis
 pelvises
@@ -74970,6 +74965,10 @@ upturn
 upturned
 upturning
 upturns
+upvote
+upvoted
+upvoting
+upvotes
 upward
 upwardly
 upwards
