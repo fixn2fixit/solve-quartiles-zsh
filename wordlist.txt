@@ -39868,8 +39868,6 @@ litigiousness
 litmus
 litmuses
 litotes
-litre
-litres
 litter
 litterateur
 litterateurs
@@ -57406,6 +57404,7 @@ remarrying
 remaster
 remastered
 remastering
+remasters
 rematch
 rematches
 remeasure
@@ -70152,6 +70151,8 @@ tessellates
 tessellating
 tessellation
 tessellations
+tessera
+tesserae
 test
 testament
 testamentary
