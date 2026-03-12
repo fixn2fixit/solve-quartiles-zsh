@@ -23703,8 +23703,6 @@ estrus
 estruses
 estuaries
 estuary
-eta
-etas
 etch
 etched
 etcher
