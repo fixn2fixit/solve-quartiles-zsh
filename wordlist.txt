@@ -9538,6 +9538,8 @@ campier
 campiest
 camping
 campings
+campo
+campos
 camps
 campsite
 campsites
@@ -12748,9 +12750,6 @@ coercing
 coercion
 coercions
 coercive
-coeval
-coevally
-coevals
 coevolution
 coexist
 coexisted
@@ -32493,6 +32492,7 @@ hippie
 hippies
 hipping
 hippo
+hippocampus
 hippodrome
 hippodromes
 hippopotami
@@ -42110,6 +42110,8 @@ megaphone
 megaphoned
 megaphones
 megaphoning
+megastar
+megastars
 megaton
 megatons
 megawatt
@@ -66461,6 +66463,9 @@ starriest
 starring
 starry
 stars
+starship
+starships
+starstruck
 start
 started
 starter
