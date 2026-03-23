@@ -40696,7 +40696,6 @@ lyricists
 lyrics
 lysine
 ma
-mac
 macabre
 macadam
 macadamia
@@ -40766,7 +40765,6 @@ macron
 macrons
 macros
 macroscopic
-macs
 mad
 madam
 madame
