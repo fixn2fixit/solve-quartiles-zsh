@@ -3073,8 +3073,6 @@ apropos
 apse
 apses
 apt
-apter
-aptest
 aptitude
 aptitudes
 aptly
@@ -27329,7 +27327,6 @@ formattings
 formed
 former
 formerly
-formers
 formfitting
 formic
 formidable
@@ -38712,8 +38709,6 @@ latrine
 latrines
 latte
 latter
-latterly
-latters
 lattes
 lattice
 latticed
