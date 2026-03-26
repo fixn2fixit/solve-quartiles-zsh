@@ -5174,6 +5174,7 @@ basements
 baseness
 basenesses
 baser
+baserunning
 bases
 basest
 bash
@@ -16886,8 +16887,6 @@ daredevil
 daredevilries
 daredevilry
 daredevils
-darer
-darers
 dares
 daresay
 daring
@@ -26026,8 +26025,6 @@ fireproof
 fireproofed
 fireproofing
 fireproofs
-firer
-firers
 fires
 fireside
 firesides
@@ -32775,6 +32772,8 @@ homers
 homes
 homeschool
 homeschooled
+homeschooler
+homeschoolers
 homeschooling
 homeschools
 homesick
@@ -70443,6 +70442,7 @@ thinnest
 thinning
 thins
 third
+thirdhand
 thirdly
 thirds
 thirst
