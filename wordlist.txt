@@ -4454,6 +4454,8 @@ backboards
 backbone
 backbones
 backbreaking
+backcountries
+backcountry
 backdate
 backdated
 backdates
@@ -4577,7 +4579,6 @@ backwoodsmen
 backyard
 backyards
 bacon
-bacons
 bacteria
 bacterial
 bactericidal
@@ -9063,6 +9064,8 @@ butterscotch
 buttery
 buttes
 butting
+buttinskies
+buttinsky
 buttock
 buttocks
 button
@@ -24898,7 +24901,6 @@ failles
 fails
 failure
 failures
-fain
 fainer
 fainest
 faint
