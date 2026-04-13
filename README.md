@@ -4,22 +4,25 @@
 # SCRIPT: solve-quartiles.zsh
 # Author: Mike Carney
 # email : fixn2fixit@gmail.com
-# Date  : December 01, 2025
+# Date  : April 13, 2026
 # 
 # PURPOSE
 # -------
 # Solves Apple News+ Quartiles puzzles
 # Avoids human meltdown arranging 123,520 combinations
+# Zsh is 30+ years old, it's still capable and fast
+# Zsh is the default shell for MacOS and Kali Linux
+# Zsh is available to install for most Linux disros.
 #
 # INSTALL/USE
 # -----------
-# Zsh must be installed or add that package first
+# Zsh must be installed or add that package first (MacOS default, Linux opt)
 # Where: wherever you want to use the script, download files there
 # Expected typical location is user's $HOME path
 # Bundled: solve-quartiles.zsh, wordlist.txt, tiles.txt, tiles.test, README.md
-# Download: qt_distro_15.tar.gz
-# Extract distro by: tar -xvzf qt_distro_15.tar.gz
-# cd QT_DISTRO_15
+# Download: qt_distro_16.tar.gz
+# Extract distro by: tar -xvzf qt_distro_16.tar.gz
+# cd QT_DISTRO_16
 # Solve puzzles with: zsh solve-quartiles.zsh
 
 # TO PLAY 
@@ -32,8 +35,8 @@
 
 # OPTIONAL
 # -------- 
-# Try an OCR app to scan the 20 tiles together
-# then copy/paste the entire group for input
+# Try an OCR app to scan 20 tiles displayed online (altogether)
+# then copy/paste the entire group instead of typing each tile during input 
 #
 # DEVELOPMENT IDEAS IMPLEMENTED 
 # -----------------------------
@@ -43,7 +46,7 @@
 # Must input 20 tiles (full tiles space-separated)
 # Used standard command-line tools only, shell and regex
 # Located a reliable wordplay wordlist from GitHub, etc.
-# Included such wordlist in the install disto
+# Included such wordlist in the install distro
 # Because any particular wordlist is likely imperfect,
 # (add/del) words as puzzles reveal over days/months, etc.
 # wordlist.txt will be updated regularly for this project
@@ -52,13 +55,14 @@
 # -----------------
 # Added checks, wordlist compatibility and tiles content
 # Sorting tiles by wordlist frequency increased speed in most cases
-# (4-tile words) do not reuse tiles, dynamically exclude those used
+# 4-tile words found omit their tiles from add'l 4-tile searches 
+# 4-tile min-max character range 08-15 is based on 900+ solutions 
 #
 # PROBLEMATIC
 # -----------
 # Optional OCR scanning is imperfect, can introduce multi-byte chars
 # Multi-byte character cleanup is an elusive conundrum
-# Wordlists found for download are predominately DOS formatted
+# Wordlists found online for download are predominately DOS formatted
 # wordlist.txt gets scrubbed, preserve any originals you overwrite 
 # Standard -nix utilities don't play well with CRLF terminated files
 # 

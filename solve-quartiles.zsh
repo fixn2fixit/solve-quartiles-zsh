@@ -1,5 +1,5 @@
 #! /bin/zsh
-# AUTHOR  : Michael Carney, Ver. 2.7.15, Dec. 01, 2025
+# AUTHOR  : Michael Carney, Ver. 2.7.16, Apr. 13, 2026
 # CONTACT : fixn2fixit@gmail.com
 # USAGE   : zsh ./solve-quartiles.zsh
 # WHAT    : Solves Apple News+ Quartiles puzzles
@@ -22,15 +22,15 @@
 # UPDATED : Rewritten as functions for clarity and ease of testing 
 #         : Each tile length (2-4 chars) is checked as well as total tiles = 20
 #         : Typed input can be backspaced for corrections, use a period to finish input
-#         : Word length ranges are based on historical analysis of 400+ actual puzzles
+#         : Word length ranges are based on historical analysis of 900+ actual puzzles
 #         : Total avoided but possible lookups provided as a measurement of efficiency
 #         : Exit if pasted or typed characters are detected as malformed, multi-char
 #         : Increased exclusions list in loop4, reduced total searches, reduced runtime
 #         : Fixed input_tiles() bug, punctuation not allowed; therefore eliminated 
 #         : Fixed exclude_some() bug, $move_on[@] patterns now match consistently
 #         : End, kill -s SIGINT $$ avoids closing Terminal when called by double-click
-# MIN-MAX : Oct. 03, 2025 min-max character range updated based on historical analysis
-#         : Slower now by .5 sec due to 'embroils' & 'prognosticated' needing 08-14 char
+# MIN-MAX : Apr. 13, 2026 min-max character range updated based on historical analysis
+#         : Slower by .6 sec due to 'embroils' & 'whatchamacallit' needing 08-15 char
 # METHODS : /tmp/ is utilized for reduction and cleanup, writes are public & disposable 
 #         : dict[@] is resized per loop(1-4) to the expected character-range (min-max)
 #         : dict[@] is further reduced using only first-tile matches in current wordlist
@@ -49,7 +49,7 @@
 # FORMAT  : The expected format of any wordlist is one lower-case word per line
 # FIXER   : This script auto-corrects Win/DOS style wordlists for Unix compatible end-of-lines
 # SCRUBBER: This script eliminates wordlist records with capitals, numbers, or punctuation
-# LIMITER : This script limits word size to 14 characters, /tmp/min-max files are written
+# LIMITER : Limits dict() words to 15 characters max, min-max files written accordingly
 # ONGOING : You should (add or delete) words in (wordlist.txt) as puzzles determine valid
 # DICT    : If using your own word list, preserve (wordlist.txt), overwrite with yours
 # ================================ BEGIN FUNCTIONS ===========================================
@@ -80,10 +80,10 @@ check_wordlist() {
               echo "$qty words in $masterlist\n"
               (($qty < 50000 )) && echo "\ninadequate wordplay list, get one with 50,000+ words..\n" && exit
                  }
-reduce_wordlist() { # limit words in wordlist.txt to 14 chars max
-                  awk 'length < 15' $masterlist > $smallerList
+reduce_wordlist() { # limit words in wordlist.txt to 15 chars max
+                  awk 'length < 16' $masterlist > $smallerList
                   }
-check_tiles() {  # checking because OCR scans may introduce hidden ctrl chars or omit text
+check_tiles() {  # The use of OCR scans may introduce hidden ctrl chars, omit or misrepresent text
               echo "\nChecking presence and content of: ($tiles)\n"
               [ ! -s $tiles ] && echo "Missing content! Put all tile chars into: $tiles\n"      && exit
               [ -s $tiles ] && qty=$(awk 'BEGIN{n=0} /./ {n+=NF} END{print n}' $tiles)
@@ -100,7 +100,7 @@ check_tiles() {  # checking because OCR scans may introduce hidden ctrl chars or
               (cat $tiles ; cat -v $tiles ) | pr -t -2 -o8 -w25                         && echo && 
               kill -s SIGINT $$
               }
-sort_tiles()  { # sort tiles low-to-high by presence anywhere, among all words
+sort_tiles()  { # sorting tiles by presence in wordlist.txt, most often improves speed, per benchmarks
               for ea_ in $(cat $tiles)
               do 
               qty=$(grep -c $ea_ $smallerList)
@@ -111,7 +111,7 @@ sort_tiles()  { # sort tiles low-to-high by presence anywhere, among all words
 tiles_array() {
               tile=($(< $tiles))
               }
-make_dict()   { # tile one during each top loop determines dict[@] array size
+make_dict()   { # tile one during each top loop determines dict[@] content
               dict=(: $(grep "^${tile[$one]}" $min_max) :)
               }
 exclude_some(){ # first tile searches having no matches in wordlist
@@ -170,7 +170,7 @@ make_dict
 done
         }
 loop4() {
-min_max="/tmp/wordlist-08-14-char.txt"
+min_max="/tmp/wordlist-08-15-char.txt"
 awk 'length > 7' $smallerList > $min_max
 echo "\nsearching four-tile hits.. \n"
 for (( one=1; one<=20; one++ ))
@@ -199,7 +199,7 @@ done
         }
 # ================================ MAIN =====================================
 umask 111            # /tmp/ files written are public
-qt_ver="v2.7.15"
+qt_ver="v2.7.16"
 possible="123520"
 tiles="tiles.txt"
 masterlist="wordlist.txt" ; hits=0 ; quartiles=0 ; lookups=0
