@@ -44250,6 +44250,8 @@ mommie
 mommies
 mommy
 moms
+monad
+monads
 monarch
 monarchic
 monarchical
@@ -44317,8 +44319,6 @@ monism
 monisms
 monist
 monists
-monition
-monitions
 monitor
 monitored
 monitoring
@@ -74819,6 +74819,8 @@ unfold
 unfolded
 unfolding
 unfolds
+unfollowed
+unfollowing
 unforced
 unforeseeable
 unforeseen
