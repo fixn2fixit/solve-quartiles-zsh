@@ -22,7 +22,7 @@
 # UPDATED : Rewritten as functions for clarity and ease of testing 
 #         : Each tile length (2-4 chars) is checked as well as total tiles = 20
 #         : Typed input can be backspaced for corrections, use a period to finish input
-#         : Word length ranges are based on historical analysis of 900+ actual puzzles
+#         : Word length ranges are based on historical analysis of 600+ actual puzzles
 #         : Total avoided but possible lookups provided as a measurement of efficiency
 #         : Exit if pasted or typed characters are detected as malformed, multi-char
 #         : Increased exclusions list in loop4, reduced total searches, reduced runtime
