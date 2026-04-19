@@ -7709,8 +7709,6 @@ botanists
 botany
 botch
 botched
-botcher
-botchers
 botches
 botching
 both
@@ -7719,6 +7717,7 @@ bothered
 bothering
 bothers
 bothersome
+bots
 bottle
 bottled
 bottleneck
@@ -7767,8 +7766,6 @@ boundaries
 boundary
 bounded
 bounden
-bounder
-bounders
 bounding
 boundless
 boundlessly
