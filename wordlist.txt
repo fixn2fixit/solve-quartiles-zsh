@@ -46202,8 +46202,6 @@ nitrates
 nitrating
 nitration
 nitrations
-nitre
-nitres
 nitrification
 nitrite
 nitrites
@@ -50104,6 +50102,8 @@ pave
 paved
 pavement
 pavements
+paver
+pavers
 paves
 pavilion
 pavilions
@@ -60259,8 +60259,6 @@ rotundities
 rotundity
 rotundness
 rotundnesses
-rouble
-roubles
 roue
 roues
 rouge
