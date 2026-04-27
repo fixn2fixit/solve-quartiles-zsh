@@ -31256,7 +31256,6 @@ gyve
 gyved
 gyves
 gyving
-ha
 haberdasher
 haberdashers
 haberdashery
@@ -31758,6 +31757,10 @@ hardtop
 hardtops
 hardware
 hardwares
+hardwire
+hardwired
+hardwires
+hardwiring
 hardwood
 hardwoods
 hardworking
@@ -39106,6 +39109,7 @@ lase
 lased
 laser
 lasers
+lases
 lash
 lashed
 lashes
@@ -45246,7 +45250,6 @@ mustering
 musters
 mustier
 mustiest
-mustily
 mustiness
 mustinesses
 musts
