@@ -38117,6 +38117,8 @@ juxtaposing
 juxtaposition
 kabob
 kabobs
+kaboom
+kabooms
 kabuki
 kabukis
 kaddish
@@ -38141,6 +38143,8 @@ kaolin
 kaolins
 kapok
 kapoks
+kapow
+kapows
 kappa
 kappas
 kaput
@@ -79548,6 +79552,8 @@ yellow
 yellowed
 yellower
 yellowest
+yellowhammer
+yellowhammers
 yellowing
 yellowish
 yellowness
