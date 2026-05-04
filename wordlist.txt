@@ -9910,6 +9910,8 @@ captaincy
 captained
 captaining
 captains
+captcha
+captchas
 caption
 captioned
 captioning
@@ -10612,6 +10614,8 @@ caveats
 caved
 caveman
 cavemen
+caver
+cavers
 cavern
 cavernous
 cavernously
@@ -11095,7 +11099,6 @@ chaplets
 chapped
 chapping
 chaps
-chapt
 chapter
 chapters
 char
@@ -52492,6 +52495,8 @@ policing
 policy
 policyholder
 policyholders
+policymaker
+policymakers
 poling
 polio
 poliomyelitides
