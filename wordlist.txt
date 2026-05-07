@@ -4566,6 +4566,8 @@ backrest
 backrests
 backroom
 backs
+backsaw
+backsaws
 backscratchings
 backseat
 backseats
@@ -6304,6 +6306,8 @@ biennium
 bienniums
 bier
 biers
+biff
+biffs
 bifocal
 bifocals
 bifurcate
@@ -22447,6 +22451,7 @@ elegiacal
 elegiacs
 elegies
 elegize
+elegized
 elegy
 element
 elemental
