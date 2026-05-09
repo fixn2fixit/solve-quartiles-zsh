@@ -11387,8 +11387,6 @@ cheroot
 cheroots
 cherries
 cherry
-chert
-cherts
 cherub
 cherubic
 cherubim
@@ -30411,6 +30409,8 @@ graphology
 graphs
 grapnel
 grapnels
+grappa
+grappas
 grapple
 grappled
 grapples
