@@ -11397,7 +11397,6 @@ chervils
 chess
 chessboard
 chessboards
-chesses
 chessman
 chessmen
 chest
@@ -55670,7 +55669,6 @@ quintet
 quintets
 quintette
 quintettes
-quints
 quintuple
 quintupled
 quintuples
@@ -72393,6 +72391,8 @@ touchiness
 touchinesses
 touching
 touchingly
+touchpoint
+touchpoints
 touchscreen
 touchscreens
 touchstone
