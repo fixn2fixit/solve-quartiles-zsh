@@ -78388,6 +78388,8 @@ whistling
 whists
 whit
 white
+whiteboard
+whiteboards
 whitecap
 whitecaps
 whitefish
