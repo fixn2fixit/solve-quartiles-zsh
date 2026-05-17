@@ -28659,7 +28659,6 @@ gagged
 gagging
 gaggle
 gaggles
-gaging
 gags
 gaieties
 gaiety
@@ -33003,7 +33002,6 @@ hokes
 hokey
 hokier
 hokiest
-hoking
 hokum
 hokums
 hold
@@ -38439,6 +38437,7 @@ kinetics
 kinfolk
 kinfolks
 king
+kinged
 kingdom
 kingdoms
 kingfisher
@@ -44501,6 +44500,7 @@ moonstone
 moonstones
 moonstruck
 moonwalk
+moonwalking
 moonwalks
 moony
 moor
@@ -77444,7 +77444,6 @@ wakens
 wakes
 waking
 wale
-waled
 wales
 walk
 walkaway
