@@ -40130,7 +40130,6 @@ limpnesses
 limps
 limy
 linage
-linages
 linchpin
 linchpins
 linden
@@ -61159,6 +61158,7 @@ sashay
 sashayed
 sashaying
 sashays
+sashed
 sashes
 sass
 sassafras
@@ -77339,7 +77339,6 @@ waders
 wades
 wadi
 wading
-wadis
 wads
 wafer
 wafers
