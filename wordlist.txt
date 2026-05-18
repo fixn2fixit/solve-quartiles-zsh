@@ -21033,6 +21033,7 @@ dowelling
 dowels
 dowered
 down
+downballot
 downbeat
 downbeats
 downcast
@@ -22419,6 +22420,7 @@ electrolyte
 electrolytes
 electrolytic
 electromagnet
+electromagnets
 electromagnetic
 electromotive
 electron
@@ -38782,7 +38784,6 @@ lacquers
 lacrimal
 lacrosse
 lacrosses
-lacs
 lactate
 lactated
 lactates
@@ -51232,6 +51233,8 @@ philters
 philtre
 philtres
 phis
+phish
+phishes
 phishing
 phishings
 phlebitides
@@ -66128,8 +66131,6 @@ spastics
 spat
 spate
 spates
-spathe
-spathes
 spatial
 spatially
 spats
@@ -69064,6 +69065,8 @@ sunscreen
 sunscreens
 sunset
 sunsets
+sunsetting
+sunsettings
 sunshade
 sunshades
 sunshine
