@@ -1,5 +1,5 @@
 #! /bin/zsh
-# AUTHOR  : Michael Carney, Ver. 2.7.16, Apr. 13, 2026
+# AUTHOR  : Michael Carney, Ver. 2.6.17, May 25, 2026
 # CONTACT : fixn2fixit@gmail.com
 # USAGE   : zsh ./solve-quartiles.zsh
 # WHAT    : Solves Apple News+ Quartiles puzzles
@@ -22,15 +22,15 @@
 # UPDATED : Rewritten as functions for clarity and ease of testing 
 #         : Each tile length (2-4 chars) is checked as well as total tiles = 20
 #         : Typed input can be backspaced for corrections, use a period to finish input
-#         : Word length ranges are based on historical analysis of 600+ actual puzzles
+#         : Word length ranges are based on historical analysis of 700+ actual puzzles
 #         : Total avoided but possible lookups provided as a measurement of efficiency
 #         : Exit if pasted or typed characters are detected as malformed, multi-char
 #         : Increased exclusions list in loop4, reduced total searches, reduced runtime
 #         : Fixed input_tiles() bug, punctuation not allowed; therefore eliminated 
 #         : Fixed exclude_some() bug, $move_on[@] patterns now match consistently
 #         : End, kill -s SIGINT $$ avoids closing Terminal when called by double-click
-# MIN-MAX : Apr. 13, 2026 min-max character range updated based on historical analysis
-#         : Slower by .6 sec due to 'embroils' & 'whatchamacallit' needing 08-15 char
+# MIN-MAX : May 25, 2026 min-max character range updated based on historical analysis
+#         : Slower by .6 sec due to 'embroils' & 'hyperventilation' needing 08-16 char
 # METHODS : /tmp/ is utilized for reduction and cleanup, writes are public & disposable 
 #         : dict[@] is resized per loop(1-4) to the expected character-range (min-max)
 #         : dict[@] is further reduced using only first-tile matches in current wordlist
@@ -49,7 +49,7 @@
 # FORMAT  : The expected format of any wordlist is one lower-case word per line
 # FIXER   : This script auto-corrects Win/DOS style wordlists for Unix compatible end-of-lines
 # SCRUBBER: This script eliminates wordlist records with capitals, numbers, or punctuation
-# LIMITER : Limits dict() words to 15 characters max, min-max files written accordingly
+# LIMITER : Limits dict() words to 16 characters max, min-max files written accordingly
 # ONGOING : You should (add or delete) words in (wordlist.txt) as puzzles determine valid
 # DICT    : If using your own word list, preserve (wordlist.txt), overwrite with yours
 # ================================ BEGIN FUNCTIONS ===========================================
@@ -80,8 +80,8 @@ check_wordlist() {
               echo "$qty words in $masterlist\n"
               (($qty < 50000 )) && echo "\ninadequate wordplay list, get one with 50,000+ words..\n" && exit
                  }
-reduce_wordlist() { # limit words in wordlist.txt to 15 chars max
-                  awk 'length < 16' $masterlist > $smallerList
+reduce_wordlist() { # limit words in wordlist.txt to 16 chars max
+                  awk 'length < 17' $masterlist > $smallerList
                   }
 check_tiles() {  # The use of OCR scans may introduce hidden ctrl chars, omit or misrepresent text
               echo "\nChecking presence and content of: ($tiles)\n"
@@ -170,7 +170,7 @@ make_dict
 done
         }
 loop4() {
-min_max="/tmp/wordlist-08-15-char.txt"
+min_max="/tmp/wordlist-08-16-char.txt"
 awk 'length > 7' $smallerList > $min_max
 echo "\nsearching four-tile hits.. \n"
 for (( one=1; one<=20; one++ ))
@@ -199,7 +199,7 @@ done
         }
 # ================================ MAIN =====================================
 umask 111            # /tmp/ files written are public
-qt_ver="v2.7.16"
+qt_ver="v2.6.17"
 possible="123520"
 tiles="tiles.txt"
 masterlist="wordlist.txt" ; hits=0 ; quartiles=0 ; lookups=0

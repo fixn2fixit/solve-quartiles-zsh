@@ -1,10 +1,10 @@
 # solve-quartiles-zsh
 # Solve Apple News+ Quartiles Puzzles with Z-shell
-# README: README file, ver. 2.7.xx
+# README: README file, ver. 2.6.17
 # SCRIPT: solve-quartiles.zsh
 # Author: Mike Carney
 # email : fixn2fixit@gmail.com
-# Date  : April 13, 2026
+# Date  : May 25, 2026
 # 
 # PURPOSE
 # -------
@@ -20,9 +20,9 @@
 # Where: wherever you want to use the script, download files there
 # Expected typical location is user's $HOME path
 # Bundled: solve-quartiles.zsh, wordlist.txt, tiles.txt, tiles.test, README.md
-# Download: qt_distro_16.tar.gz
-# Extract distro by: tar -xvzf qt_distro_16.tar.gz
-# cd QT_DISTRO_16
+# Download: qt_distro_17.tar.gz
+# Extract distro by: tar -xvzf qt_distro_17.tar.gz
+# cd QT_DISTRO_17
 # Solve puzzles with: zsh solve-quartiles.zsh
 
 # TO PLAY 
@@ -46,7 +46,7 @@
 # Must input 20 tiles (full tiles space-separated)
 # Used standard command-line tools only, shell and regex
 # Located a reliable wordplay wordlist from GitHub, etc.
-# Included such wordlist in the install distro
+# Included May 24, 2026 wordlist.txt in the install distro
 # Because any particular wordlist is likely imperfect,
 # (add/del) words as puzzles reveal over days/months, etc.
 # wordlist.txt will be updated regularly for this project
@@ -56,7 +56,7 @@
 # Added checks, wordlist compatibility and tiles content
 # Sorting tiles by wordlist frequency increased speed in most cases
 # 4-tile words found omit their tiles from add'l 4-tile searches 
-# 4-tile min-max character range 08-15 is based on 900+ solutions 
+# The min-max character range [08-16] is based on 700+ solutions 
 #
 # PROBLEMATIC
 # -----------
@@ -74,12 +74,12 @@
 # 
 # MY DEV KIT
 # ----------
-# Mac mini, 2018 I7, 64GB, BlackMagic GPU, Sonoma 14
-# Beelink SER 7 mini PC, 64GB, Ryzen 7840, Ubuntu 24
+# Mac mini, 2018 I7, 64GB, BlackMagic GPU, Sequoia 15
+# Beelink SER 7 mini PC, 64GB, Ryzen 7840, Ubuntu  24
 #
 # BENCHMARKS
 # ----------
-# Ran puzzles gathered over 400+ days
+# Ran puzzles gathered over 700+ days
 # MacOS: Intel I7    (1.0)-(4.0) sec, < 1.9 > avg
 # Linux: Ryzen 7840  (0.3)-(1.5) sec, < 0.5 > avg
 #
