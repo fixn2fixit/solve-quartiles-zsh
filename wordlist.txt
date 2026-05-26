@@ -1281,6 +1281,8 @@ aforethought
 afoul
 afraid
 afresh
+afro
+afros
 aft
 after
 afterbirth
