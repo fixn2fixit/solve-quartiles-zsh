@@ -14405,6 +14405,7 @@ consideration
 considered
 considering
 considers
+consigliere
 consign
 consigned
 consignee
@@ -18307,6 +18308,8 @@ demoniac
 demoniacal
 demoniacally
 demonic
+demonization
+demonizations
 demonize
 demonologies
 demonology
@@ -28584,6 +28587,7 @@ funereal
 funereally
 fungal
 fungi
+fungibility
 fungible
 fungibles
 fungicidal
