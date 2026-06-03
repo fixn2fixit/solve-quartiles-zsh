@@ -15113,7 +15113,6 @@ corkscrew
 corkscrewed
 corkscrewing
 corkscrews
-corm
 cormorant
 cormorants
 corms
@@ -45762,8 +45761,11 @@ narcissistic
 narcissists
 narcissus
 narcissuses
+narco
+narcos
 narcolepsies
 narcolepsy
+narcoleptic
 narcoses
 narcosis
 narcotic
@@ -68311,6 +68313,9 @@ stormily
 storminess
 storminesses
 storming
+stormproof
+stormproofed
+stormproofing
 storms
 stormy
 story
