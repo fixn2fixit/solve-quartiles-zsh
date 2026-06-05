@@ -19506,6 +19506,8 @@ dingbats
 dingdong
 dingdongs
 dinged
+dinger
+dingers
 dinghies
 dinghy
 dingier
