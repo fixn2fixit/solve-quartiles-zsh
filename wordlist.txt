@@ -49700,6 +49700,7 @@ panderers
 pandering
 panders
 pane
+paneer
 panegyric
 panegyrics
 panel
@@ -52775,7 +52776,6 @@ pointlessness
 pointlessnesses
 points
 pointy
-pois
 poise
 poised
 poises
@@ -66884,6 +66884,8 @@ spitfires
 spiting
 spits
 spitted
+spitter
+spitters
 spitting
 spittle
 spittles
