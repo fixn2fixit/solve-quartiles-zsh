@@ -30256,6 +30256,8 @@ google
 googled
 googles
 googling
+googol
+googolplex
 gooier
 gooiest
 gook
