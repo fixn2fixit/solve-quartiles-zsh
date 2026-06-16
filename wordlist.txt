@@ -15459,6 +15459,7 @@ counteracts
 counterattack
 counterattacked
 counterattacking
+counterbalance
 counterbalanced
 counterbalances
 counterbalancing
@@ -80222,6 +80223,8 @@ zeroing
 zeros
 zest
 zested
+zester
+zesters
 zestful
 zestfully
 zestfulness
