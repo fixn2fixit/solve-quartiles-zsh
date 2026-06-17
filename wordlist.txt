@@ -12805,6 +12805,8 @@ cock
 cockade
 cockades
 cockamamie
+cockatiel
+cockatiels
 cockatoo
 cockatoos
 cockatrice
@@ -52090,6 +52092,7 @@ pipelines
 piper
 pipers
 pipes
+pipet
 pipette
 pipettes
 piping
@@ -53707,6 +53710,7 @@ predate
 predated
 predates
 predating
+predation
 predator
 predators
 predatory
@@ -55482,6 +55486,7 @@ pupils
 pupped
 puppet
 puppeteer
+puppeteering
 puppeteers
 puppetries
 puppetry
