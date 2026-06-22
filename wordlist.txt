@@ -33424,7 +33424,6 @@ honourable
 honoured
 honouring
 honours
-hons
 hooch
 hooches
 hood
@@ -66542,7 +66541,6 @@ spatter
 spattered
 spattering
 spatters
-spatting
 spatula
 spatulas
 spavin
