@@ -72746,6 +72746,8 @@ torsions
 torso
 torsos
 tort
+torta
+tortas
 torte
 tortellini
 tortellinis
