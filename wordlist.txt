@@ -2367,7 +2367,6 @@ anemometer
 anemometers
 anemone
 anemones
-anent
 anesthesia
 anesthesias
 anesthesiologies
@@ -24016,6 +24015,7 @@ escarole
 escaroles
 escarpment
 escarpments
+eschatology
 eschew
 eschewed
 eschewing
@@ -58867,10 +58867,6 @@ rephrase
 rephrased
 rephrases
 rephrasing
-repine
-repined
-repines
-repining
 replace
 replaceable
 replaced
@@ -75704,6 +75700,7 @@ unnatural
 unnaturally
 unnaturalness
 unnaturalnesses
+unnavigable
 unnecessarily
 unnecessary
 unneeded
