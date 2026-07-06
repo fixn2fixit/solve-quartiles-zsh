@@ -9502,10 +9502,6 @@ caliphates
 caliphs
 calisthenic
 calisthenics
-calk
-calked
-calking
-calks
 call
 calla
 callas
@@ -35672,6 +35668,7 @@ indicting
 indictment
 indictments
 indicts
+indie
 indies
 indifference
 indifferences
@@ -38685,6 +38682,9 @@ kingfishers
 kinglier
 kingliest
 kingly
+kingmaker
+kingmaking
+kingmakers
 kingpin
 kingpins
 kings
@@ -60631,8 +60631,6 @@ rotating
 rotation
 rotations
 rotatory
-rote
-rotes
 rotgut
 rotguts
 roti
