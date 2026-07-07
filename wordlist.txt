@@ -34389,6 +34389,8 @@ ices
 ichthyologies
 ichthyologist
 ichthyology
+ichthyosaur
+ichthyosaurs
 icicle
 icicles
 icier
