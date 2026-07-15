@@ -33508,6 +33508,8 @@ hopscotches
 hopscotching
 hora
 horas
+horchata
+horchatas
 horde
 horded
 hordes
@@ -76471,9 +76473,6 @@ usable
 usage
 usages
 use
-useabilities
-useability
-useable
 used
 useful
 usefully
