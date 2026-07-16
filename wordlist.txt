@@ -4952,6 +4952,8 @@ baneful
 banes
 bang
 banged
+banger
+bangers
 banging
 bangle
 bangles
@@ -32206,6 +32208,9 @@ headache
 headaches
 headband
 headbands
+headbanger
+headbangers
+headbanging
 headboard
 headboards
 headdress
