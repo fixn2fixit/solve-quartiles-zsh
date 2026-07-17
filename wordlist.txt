@@ -29905,6 +29905,7 @@ glisters
 glitch
 glitches
 glitter
+glitterati
 glittered
 glittering
 glitters
@@ -60263,7 +60264,6 @@ riposte
 riposted
 ripostes
 riposting
-riposts
 ripped
 ripper
 rippers
