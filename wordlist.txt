@@ -10531,6 +10531,7 @@ caterwauling
 caterwauls
 catfish
 catfishes
+catfishing
 catgut
 catguts
 catharses
@@ -16453,6 +16454,7 @@ crystallizes
 crystallizing
 crystals
 cub
+cubby
 cubbyhole
 cubbyholes
 cube
@@ -31487,7 +31489,6 @@ hafnium
 hafniums
 haft
 hafts
-hag
 haggard
 haggardly
 haggardness
@@ -31505,7 +31506,6 @@ hagiographer
 hagiographers
 hagiographies
 hagiography
-hags
 hah
 hahnium
 hahniums
