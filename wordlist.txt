@@ -68755,6 +68755,7 @@ stun
 stung
 stunk
 stunned
+stunner
 stunning
 stunningly
 stuns
