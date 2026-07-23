@@ -42719,6 +42719,8 @@ measuring
 meat
 meatball
 meatballs
+meathead
+meatheads
 meatier
 meatiest
 meatiness
@@ -71982,6 +71984,7 @@ thunderers
 thunderhead
 thunderheads
 thundering
+thunderingly
 thunderous
 thunderously
 thunders
