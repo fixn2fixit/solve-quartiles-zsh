@@ -44584,7 +44584,6 @@ mongeese
 monger
 mongered
 mongering
-mongers
 mongolism
 mongolisms
 mongoloid
@@ -52401,7 +52400,6 @@ platform
 platformed
 platforming
 platforms
-platies
 plating
 platings
 platinum
@@ -53049,7 +53047,6 @@ ponds
 pone
 pones
 pong
-ponged
 pongee
 pongees
 ponging
@@ -57837,10 +57834,6 @@ reevaluates
 reevaluating
 reevaluation
 reevaluations
-reeve
-reeved
-reeves
-reeving
 reexamination
 reexamine
 reexamined
