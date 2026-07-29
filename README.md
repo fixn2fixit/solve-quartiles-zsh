@@ -1,10 +1,10 @@
 # solve-quartiles-zsh
 # Solve Apple News+ Quartiles Puzzles with Z-shell
-# README: README file, ver. 2.6.17
+# README: README file, ver. 2.6.18
 # SCRIPT: solve-quartiles.zsh
 # Author: Mike Carney
 # email : fixn2fixit@gmail.com
-# Date  : May 25, 2026
+# Date  : Jul 28, 2026
 # 
 # PURPOSE
 # -------
@@ -20,9 +20,9 @@
 # Where: wherever you want to use the script, download files there
 # Expected typical location is user's $HOME path
 # Bundled: solve-quartiles.zsh, wordlist.txt, tiles.txt, tiles.test, README.md
-# Download: qt_distro_17.tar.gz
-# Extract distro by: tar -xvzf qt_distro_17.tar.gz
-# cd QT_DISTRO_17
+# Download: qt_distro_18.tar.gz
+# Extract distro by: tar -xvzf qt_distro_18.tar.gz
+# cd QT_DISTRO_18
 # Solve puzzles with: zsh solve-quartiles.zsh
 
 # TO PLAY 

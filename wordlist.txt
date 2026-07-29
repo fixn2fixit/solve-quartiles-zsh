@@ -3307,8 +3307,6 @@ areal
 areas
 arena
 arenas
-argent
-argents
 argon
 argons
 argosies
@@ -3424,8 +3422,6 @@ arrangers
 arranges
 arranging
 arrant
-arras
-arrases
 array
 arrayed
 arraying
@@ -63253,6 +63249,7 @@ servos
 sesame
 sesames
 sesquicentennial
+sesquipedalian
 session
 sessions
 set
@@ -79716,7 +79713,6 @@ worsen
 worsened
 worsening
 worsens
-worses
 worship
 worshiped
 worshiper

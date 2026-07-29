@@ -1,5 +1,5 @@
 #! /bin/zsh
-# AUTHOR  : Michael Carney, Ver. 2.6.17, May 25, 2026
+# AUTHOR  : Michael Carney, Ver. 2.6.18, Jul 28, 2026
 # CONTACT : fixn2fixit@gmail.com
 # USAGE   : zsh ./solve-quartiles.zsh
 # WHAT    : Solves Apple News+ Quartiles puzzles
@@ -28,6 +28,7 @@
 #         : Increased exclusions list in loop4, reduced total searches, reduced runtime
 #         : Fixed input_tiles() bug, punctuation not allowed; therefore eliminated 
 #         : Fixed exclude_some() bug, $move_on[@] patterns now match consistently
+#         : Fixed 'exclude' bug, division by zero, jul-28-2026
 #         : End, kill -s SIGINT $$ avoids closing Terminal when called by double-click
 # MIN-MAX : May 25, 2026 min-max character range updated based on historical analysis
 #         : Slower by .6 sec due to 'embroils' & 'hyperventilation' needing 08-16 char
@@ -58,11 +59,8 @@ say_greeting(){ clear
               echo "=========================" 
               }
 input_tiles() { theseTiles=( )
-              echo "Input Tips\n=========="
-              echo "Input puzzle tiles, finish with ( .)"
-              echo "1 or more per line, space them apart" 
-              echo "If (.) only, input is from tiles.txt"
-              echo "\nEnter 20 tiles, end with (. return)\n> \c"
+              echo
+              echo "Enter all 20 tiles, finish with (. return)\n\n> \c"
               while read z
               do theTiles+=( $z)
               [[ $theTiles[@] =~ "\." ]] && break
@@ -119,8 +117,8 @@ exclude_some(){ # first tile searches having no matches in wordlist
               move_on+=($(grep -q ^$ea_ $smallerList || echo $ea_))
               done
               (( ${#move_on} > 0 )) && echo "Excluding first-tile searches: $move_on[@]\n"
-              exclude=$(echo $move_on | awk 'END{print (1/(20/NF)*123520)}')
-              echo "TILE ARRAY\n----------\n$tile[@]\n"
+              (( ${#move_on} > 0 )) && exclude=$(echo $move_on | awk 'END{print (1/(20/NF)*123520)}')
+              (( ${#move_on} > 0 )) && echo "TILE ARRAY\n----------\n$tile[@]\n"
               }
 loop1() {
 min_max="/tmp/wordlist-02-04-char.txt"
@@ -199,10 +197,10 @@ done
         }
 # ================================ MAIN =====================================
 umask 111            # /tmp/ files written are public
-qt_ver="v2.6.17"
+qt_ver="v2.6.18"
 possible="123520"
 tiles="tiles.txt"
-masterlist="wordlist.txt" ; hits=0 ; quartiles=0 ; lookups=0
+masterlist="wordlist.txt" ; hits=0 ; quartiles=0 ; lookups=0 ; exclude=0
 smallerList="/tmp/wordlist.max14.chars.txt"
 my_runtime=/tmp/quartiles.times.out
 say_greeting
