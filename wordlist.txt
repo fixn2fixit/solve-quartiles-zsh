@@ -9612,6 +9612,7 @@ cami
 camis
 camisole
 camisoles
+camo
 camomile
 camomiles
 camouflage
@@ -27900,6 +27901,7 @@ foulnesses
 fouls
 found
 foundation
+foundational
 foundations
 founded
 founder
@@ -29859,7 +29861,6 @@ gleeful
 gleefully
 gleefulness
 gleefulnesses
-glees
 glen
 glens
 glib
@@ -31864,6 +31865,8 @@ harbingers
 harbor
 harbored
 harboring
+harbormaster
+harbormasters
 harbors
 harbour
 harboured
@@ -33763,6 +33766,7 @@ houselights
 housemaid
 housemaids
 houseman
+housemates
 housemen
 housemother
 housemothers
@@ -51370,8 +51374,6 @@ peter
 petered
 petering
 peters
-petiole
-petioles
 petite
 petites
 petition
@@ -70770,10 +70772,12 @@ tartly
 tartness
 tartnesses
 tarts
+tase
 taser
 tasered
 tasering
 tasers
+tases
 tasing
 task
 tasked
