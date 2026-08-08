@@ -2439,6 +2439,7 @@ anhydrous
 aniline
 anilines
 animadversion
+anima
 animadvert
 animadverted
 animadverting
@@ -2446,11 +2447,13 @@ animadverts
 animal
 animalcule
 animalcules
+animalistic
 animals
 animate
 animated
 animatedly
 animates
+animatic
 animating
 animation
 animations
@@ -9043,7 +9046,6 @@ burrowers
 burrowing
 burrows
 burrs
-burs
 bursa
 bursae
 bursar
@@ -9221,6 +9223,7 @@ buzzkill
 buzzkills
 buzzword
 buzzwords
+buzzworthy
 by
 bye
 byelaw
@@ -33351,8 +33354,6 @@ honcho
 honchos
 hone
 honed
-honer
-honers
 hones
 honest
 honester
@@ -40541,6 +40542,7 @@ listener
 listeners
 listening
 listens
+listicle
 listing
 listings
 listless
