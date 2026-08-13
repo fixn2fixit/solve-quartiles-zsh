@@ -67426,6 +67426,8 @@ staccato
 staccatos
 stack
 stacked
+stacker
+stackers
 stacking
 stacks
 stadia
