@@ -10863,7 +10863,6 @@ centrifuge
 centrifuged
 centrifuges
 centrifuging
-centring
 centripetal
 centripetally
 centrism
@@ -28488,7 +28487,6 @@ fueling
 fuelled
 fuelling
 fuels
-fugal
 fugitive
 fugitives
 fugue
@@ -73506,6 +73504,7 @@ triads
 triage
 triages
 trial
+trialing
 trialled
 trialling
 trials
