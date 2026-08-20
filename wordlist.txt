@@ -2870,7 +2870,6 @@ apiarist
 apiarists
 apiary
 apical
-apically
 apices
 apiece
 aping
@@ -36054,7 +36053,6 @@ infliction
 inflictions
 inflictive
 inflicts
-inflight
 inflorescence
 inflorescent
 inflow
@@ -53066,6 +53064,7 @@ pontoon
 pontoons
 pony
 ponytail
+ponytailed
 ponytails
 pooch
 pooches
